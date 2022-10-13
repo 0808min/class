@@ -1,11 +1,12 @@
 
--- 문자함수
 
 select ename, lower(ename) from emp;
 
-select Upper('scott') from dual;
 
+-- 문자함수
+select Upper('scott') from dual;
 select initcap('scott') from dual;
+
 
 -- substr (원본, 시작포인트 반활할 개수)
 select substr('안녕하세요 박민입니다.', 2, 8) from dual;
@@ -54,4 +55,104 @@ select next_day(sysdate, 7) from dual;
 select last_day(sysdate) from dual;
 select round(sysdate) from dual;
 select trunc(sysdate) from dual;
+
+-- 변환함수
+
+-- to_char(원본, 'formet') 2022. 10. 13 14:39 
+-- date -> varchar2
+select sysdate, 
+       to_char(sysdate, 'YYYY-MM-DD'), 
+       to_char(sysdate, 'YYYY.MM.DD'),
+       to_char(sysdate, 'YYYY.MM.DD. HH24:MI:SS')
+from dual;
+
+-- number -> varchar2
+select to_char(123456789, '000,000,000,000'), 
+       to_char(123456789, '999,999,999,999'),
+       to_char(123456789, 'L999,999,999,999')
+from dual;
+
+select ename, sal, to_char(sal*1400, 'L999,999,999,999')
+from emp;
+
+-- vardate2 => date 
+-- to_date(문자열, '날짜형식')
+-- 1999-12-13
+select to_date ('1999-12-13', 'YYYY-MM-DD')
+from dual;
+
+-- vardate2 => number
+select 
+   to_number('20,000','999,999') - to_number('10,000','999,999')
+from dual;
+
+-- dcode 함수 => 여러가지 비교를 통해 결과 출력 swich-case 유사
+select 
+   ename,
+   deptno,
+   decode( deptno, 10, 'ACCOUNTING'
+                , 20, 'RESEARCH'
+                , 30, 'SALES'
+                , 40, 'OPERATIONS'
+   ) as dname
+from emp;
+
+select distinct job from emp;
+-- 8. 직급에 따라 급여를 인상하도록 하자. 
+-- 직급이 'ANALYST'인 사원은 5%, 
+-- 'SALESMAN'인 사원은 10%, 
+-- 'MANAGER'인 사원은 15%,
+-- 'CLERK'인 사원은 20%인 인상한다. 
+
+select 
+    ename, job, sal,
+    nvl(
+    decode( job, 'ANALYST', sal*1.05,
+                 'SALESMAN', sal*1.1,
+                 'MANAGER', sal*1.15,
+                 'CLERK', sal*1.2
+    ),sal) as upSal
+from emp;
+
+-- case ~ when ~ then
+select ename, deptno,
+    case when deptno=10 then 'accounting'
+         when deptno=20 then 'research'
+         when deptno=30 then 'sales'
+         when deptno=40 then 'operations'
+    end as dname
+from emp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
