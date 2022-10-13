@@ -18,7 +18,7 @@ public class Exam1Main {
 		boolean chk1 = Pattern.matches("^[a-z0-9A-Z]*$", str); // 영문자와 숫자의 조합으로 된 패턴
 		System.out.println(chk1);
 
-		try {
+		try { 
 			if (!chk1) {
 				throw new Exception();
 			}
