@@ -64,8 +64,9 @@ where hiredate like '81%'
 ;
 -- 10. 관리자가 없는 사원의 이름과 담당 업무를 출력하시오.
 
-select *
-from emp;
+select ename, job
+from emp
+where mgr is null;
 
 -- 11. 커미션을 받을 수 있는 자격이 되는 사원의 이름, 급여, 커미션을 출력하되 급여 및 커미션을 기준으로 내림차순 정렬하여 표시하시오
 
@@ -86,10 +87,10 @@ from emp
 where ename like 'A,E%' 
 ;
 -- 14. 담당업무가 CLERK, 또는 SALESMAN이면서 급여가 $1600, $950 또는 $1300이 아닌 사원의 이름, 담당업무, 급여를 출력하시오.
-select *
+select ename, job, sal
 from emp
+where (job = 'CLERK' or job = 'SALESMAN') and sal not in(1600, 950, 1300);
 
-;
 -- 15. 커미션이 $500 이상인 사원의 이름과 급여 및 커미션을 출력하시오.
 select ename, comm, sal
 from emp
