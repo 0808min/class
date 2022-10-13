@@ -21,3 +21,34 @@ from dual;
 select replace('Steven King', 'Steven', 'S.'),replace('Steven King', 'Steven', '') -- 치환(바꾸는거)
 from dual;
 
+-- 숫자함수
+select -10, abs(-10)
+from dual;
+
+select 2.1, 2.9, floor(2.9)
+from dual;
+
+select 1234.567, round(1234.527, 1), round(1234.527, -1), round(1234.567)
+from dual;
+
+select 1234.567, trunc(1234.567, 1), trunc(1234.567, -1),trunc(1234.567)
+from dual;
+
+select mod(1,3), mod(2,3), mod(3,3), mod(0,3), mod(3,0)
+from dual;
+
+
+
+-- 날짜함수
+
+-- 현재날짜
+select sysdate 
+from dual;
+
+select months_between(sysdate,'21/12/13') from dual;
+select add_momths(sysdate, -6) from dual;
+select next_day(sysdate, 7) from dual;
+select last_day(sysdate) from dual;
+select round(sysdate) from dual;
+select trunc(sysdate) from dual;
+
