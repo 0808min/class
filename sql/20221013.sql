@@ -1,3 +1,6 @@
+
+-- 문자함수
+
 select ename, lower(ename) from emp;
 
 select Upper('scott') from dual;
