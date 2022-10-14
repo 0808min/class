@@ -7,7 +7,7 @@ from orders
 where custid = 1;
 
 -- (4) 박지성이 구매한 도서의 수(박지성의 고객번호는 1번으로 놓고 작성)
-select count(*)
+select count(orderid)
 from orders
 where custid = 1;
 
