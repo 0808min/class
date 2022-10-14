@@ -68,7 +68,7 @@ from dual;
 select sysdate
 from dual;
 
-select months_between(sysdate, '21/12/13') from dual;
+select months_between (sysdate, '21/12/13') from dual;
 select add_months(sysdate, -6) from dual;
 select next_day(sysdate, 2) from dual;
 select last_day(sysdate) from dual;
