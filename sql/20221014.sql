@@ -14,17 +14,70 @@ from emp, dept
 where emp.deptno = dept.deptno
 ;
 
--- 생략가능
+-- 테이블 별칭을 이용해서 컬럼 구별 
 select e.ename, d.dname
 from emp e, dept d
 where e.deptno = d.deptno
 ;
 
+-- using, natural
+select * 
+from emp e inner join dept d
+on e.deptno = d.deptno;
+
+select * 
+from emp e inner join dept d
+using(deptno);
+
+select deptno
+from emp e inner join dept d
+using(deptno);
+
+select *
+from emp natural join dept
+;
+
+-- inner 를 빼도 된다
+select * from emp join dept
+on emp.deptno = dept.deptno;
 
 
+-- self join : 자기 자신의 테이블과 조인
+-- emp -> mgr : 상사의 사원번호
+select ename, mgr from emp;
 
+select ename from emp where empno=7839;
 
+-- 각 사원들의 이름과 상사의 이름을 출력
+select e1.ename as "사원이름", e2.ename as "상사이름"
+from emp e1 , emp e2
+where e1.mgr = e2.empno(+)
+;
 
+-- mysql
+select e1.ename, e2.ename
+from emp e1 left outer join emp e2
+on e1.mgr = e2.empno
+;
+-- 좌우 변경
+select e1.ename, e2.ename
+from emp e1 right outer join emp e2
+on e1.empno = e2.mgr
+;
 
+-- 'SCOTT' 사원의 사원번호와 이름, 직급, 부서이름, 부서위치를 출력
+-- emp = 사원번호, 이름, 직급
+-- dept = 부서이름, 위치
 
+select empno, ename, job, dname, loc
+from emp e, dept d
+where e.deptno = d.deptno
+      and e.ename = 'SCOTT'
+;
 
+-- inner join(mysql)
+select empno, ename, job, dname, loc
+from emp e join dept d
+on e.deptno = d.deptno
+where ename = 'SCOTT'
+;
