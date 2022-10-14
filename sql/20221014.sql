@@ -81,3 +81,59 @@ from emp e join dept d
 on e.deptno = d.deptno
 where ename = 'SCOTT'
 ;
+
+-- salgrade 테이블을 참조해서 사원들의 사번, 이름, 급여 등급을 출력
+select * 
+from salgrade;
+
+select ename, losal, sal, hisal, grade
+from emp e, salgrade s 
+where e.sal between s.losal and s.hisal
+;
+
+--my sql
+
+select ename, losal, sal, hisal, grade
+from emp e join salgrade s
+on e.sal between s.losal and s.hisal
+;
+
+-- 판매내역 : 판매정보, 판매서적의 정보, 고객의 정보
+
+desc orders;
+desc customer;
+
+select orders.orderdate, customer.name, book.bookname, book.price, orders.saleprice
+from book, customer, orders
+where orders.custid = customer.custid and orders.bookid = book.bookid
+
+order by orders.orderdate desc
+;
+
+-- mysql
+select o.orderdate, c.name, b.bookname, b.price, o.saleprice
+from orders o join customer c
+on o.custid = c.custid
+join book b
+on o.bookid = b.bookid
+where name = '박지성'
+;
+
+select *from customer;
+
+select c.name, count(*) as "구매회수"
+from orders o join customer c
+on o.custid = c.custid
+join book b
+on o.bookid = b.bookid
+
+
+group by c.name
+;
+
+
+
+
+
+
+
