@@ -21,7 +21,16 @@ from (select * from emp order by hiredate) t
 where rownum <= 3
 ;
 
--- my sql select * from emp order by hiredate (rownum = limit) 0, 3;
+-- my sql 
+-- select * from emp order by hiredate (rownum = limit)limit 0, 3; 
+
+
+--------------------------------------------------------------------
+
+
+
+
+
 
 
 
