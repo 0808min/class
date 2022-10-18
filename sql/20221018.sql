@@ -98,6 +98,27 @@ where deptno = 20
 ;
 select * from dept01;
 
+----------------------------------------------
+
+-- 테이블 행을 삭제
+-- delete from 테이블 이름 where 행선택 조건
+
+-- DELETE 문은 테이블에 저장되어 있는 데이터를 삭제합니다. 
+delete from dept01;
+
+select * from dept01;
+
+select * from emp03;
+
+-- 대표 사퇴
+delete from emp03 where empno = 7839;
+
+-- 40번 부서의 모든 사원의 삭제
+delete from emp03 where deptno = 40;
+
+-- SALES 부서의 사원이 모두 퇴사 -> 삭제 
+delete form emp03 where deptno = (select deptno from dept where dname = 'SALES');
+select deptno from dept where dname = 'SALES';
 
 
 
