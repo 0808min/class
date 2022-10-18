@@ -16,7 +16,7 @@ public class Person {
 		this.name = name;
 	}
 
-	public int getAge() {
+	public int getAge() { 
 		return age;
 	}
 
