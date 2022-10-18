@@ -42,6 +42,9 @@ create table emp02 (
     constraint emp02_gender_ck check(gender in ('M','F')),
     constraint emp02_deptno_fk foreign key (deptno)references dept(deptno)
 );
+
+
+
 select * from emp02;
 desc emp02;
 insert into emp02 values(1112, 'KING', 1500, '대표', 'F', 10, '2022-10-18');
@@ -82,8 +85,7 @@ update emp03 set deptno = 40, job = 'MANAGER' where ename = 'SCOTT';
 
 select * from emp03;
 -- SMITH 사원을 SCOTT 사원의 부서로 이동
-update emp03 set deptno = (select deptno from emp03 where ename = 'SCOTT' ) where ename = 'SMITH' ;
-
+update emp03 set deptno = (select deptno from emp03 where ename = 'SCOTT' ) ;
 drop table dept01;
 create table dept01 as select * from dept;
 select * from dept01;
@@ -98,7 +100,7 @@ where deptno = 20
 ;
 select * from dept01;
 
-----------------------------------------------
+-----------------------------------------------------------------------------
 
 -- 테이블 행을 삭제
 -- delete from 테이블 이름 where 행선택 조건
