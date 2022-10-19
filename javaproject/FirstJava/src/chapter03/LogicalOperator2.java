@@ -37,6 +37,7 @@ public class LogicalOperator2 {
 		System.out.println("대문자 또는 소문자 또는 숫자만 사용 : " + result);
 		
 		String uid = "cool#";
+	
 		
 		
 

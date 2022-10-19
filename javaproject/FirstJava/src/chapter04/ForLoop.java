@@ -6,21 +6,23 @@ public class ForLoop {
 		
 		
 			
-			// "JAVA" 출력을 5번 해보자
+			// "JAVA" 異쒕젰�쓣 5踰� �빐蹂댁옄
 	
-	        // for(초기식; 반복의 조건식; 증가식)
+	        // for(珥덇린�떇; 諛섎났�쓽 議곌굔�떇; 利앷��떇)
 	
-			//반복 할 문장들 ..
+			//諛섎났 �븷 臾몄옣�뱾 ..
 	
 	
 		for(int i=0; i<5; i++) {
 			System.out.println("JAVA "+i);
+		
 		}
 		
 	
-	    // 1~10 까지의 숫자중 짝수만 출력
+	    // 1~10 源뚯��쓽 �닽�옄以� 吏앹닔留� 異쒕젰
 		
 		for(int i=0; i<=10; i += i+2) {
+			
 			System.out.println(i);
 		}
 		
