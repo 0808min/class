@@ -86,14 +86,25 @@ drop index index_emp01_ename;
 
 
 
-select *from dept;
+select * from emp01 where empno=1111 and ename like '%SON%';
+
+select /*+ index(emp01 index_emp01_ename)*/ * from emp01 where ename='SON';
+
+select * from emp01 where ename='SON';
+
+commit;
+
+select * from emp where empno=1111;
+
+
+select * from dept;
 desc dept;
 commit;
-insert into dept values(50, '개발', '서울');
 
-update dept set dname='기획', loc='제주' where deptno=50; 
+insert into dept values (50, '개발', '서울');
 
-delete from dept where deptno=50;
+
+
 
 rollback;
 
