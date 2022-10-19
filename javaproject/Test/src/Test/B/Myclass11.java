@@ -22,6 +22,6 @@ public class Myclass11<T> {
 		System.out.println(myClass.getVal());
 		
 		
-	}
+	} 
 	
 }
