@@ -37,19 +37,65 @@ select view_name, text from user_views;
 
 drop view emp_view30;
 
+----------------------------------------------------------
+-- sequence : 자동 숫자 생성기
+create sequence seq_dept_deptno
+start with 10
+increment by 10
+;
+
+create sequence seq_emp_empno;
+select seq_emp_empno.nextval from dual;
+
+-- 새로운 값을 생성 : nextval -> 다음 값을 생성해서 반환
+select seq_dept_deptno.nextval from dual;
+select seq_dept_deptno.currval from dual;
+
+-- 시퀀스 삭제
+drop sequence seq_dept_deptno;
+
+drop table dept04;
+create table dept04
+as
+select * from dept where 1=0;
+select * from dept04;
+
+insert into dept04 values(seq_dept_deptno.nextval, '개발', '서울');
+
+------------------------------------------------------------------------
+
+-- index : 검색의 성은을 향상시킬때 사용
+
+drop table emp01;
+create table emp01
+as
+select * from emp;
+select * from emp01;
+
+
+insert into emp01 select * from emp01;
+
+insert into emp01 (empno, ename) values (1111, 'SON');
+
+select * from emp01 where ename='SON';
+
+-- index 생성
+create index index_emp01_ename on emp01(ename);
+
+drop index index_emp01_ename;
 
 
 
+select *from dept;
+desc dept;
+commit;
+insert into dept values(50, '개발', '서울');
 
+update dept set dname='기획', loc='제주' where deptno=50; 
 
+delete from dept where deptno=50;
 
-
-
-
-
-
-
-
+rollback;
 
 
 
