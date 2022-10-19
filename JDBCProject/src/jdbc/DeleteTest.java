@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class UpdateTest {
+public class DeleteTest {
 
 	public static void main(String[] args) {
 
@@ -28,18 +28,18 @@ public class UpdateTest {
 
 			// 3. Statement / PreparedStatemnet
 			// insert
-			String sql = "update dept set dname='?', loc='?' where deptno=?";
+			String sql = "delete from dept where deptno=?";
 
 			PreparedStatement pstmt = conn.prepareStatement(sql);
-			pstmt.setString(1, "기획");
-			pstmt.setString(2, "제주");
-			pstmt.setInt(3, 50);
+			pstmt.setInt(1, 50);
+			
+			
 			
 			int result = pstmt.executeUpdate();
 //			Select의 결과를 담고있는 객체
 			
 			if(result>0) {
-				System.out.println("수정되었습니다.");
+				System.out.println("삭제되었습니다.");
 			}
 
 			pstmt.close();
