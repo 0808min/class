@@ -18,7 +18,7 @@ public class Myclass11<T> {
 		Myclass11<String> myClass = new Myclass11<String>();
 		String str = myClass.getVal();
 		
-		myClass.setVal("PARK");
+		myClass.setVal("PARK"); 
 		System.out.println(myClass.getVal());
 		
 	}
