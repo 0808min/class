@@ -34,34 +34,18 @@ public class UpdateTest {
 			pstmt.setString(1, "기획");
 			pstmt.setString(2, "제주");
 			pstmt.setInt(3, 50);
-			
+
 			int result = pstmt.executeUpdate();
 //			Select의 결과를 담고있는 객체
-			
-			if(result>0) {
+
+			if (result > 0) {
 				System.out.println("수정되었습니다.");
 			}
 
 			pstmt.close();
 			conn.close();
 
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			// 4. ResultSet
-			
-			
-			
-			
-			
-			
-			
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

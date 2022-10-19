@@ -34,34 +34,18 @@ public class InsertTest {
 			pstmt.setInt(1, 50);
 			pstmt.setString(2, "개발");
 			pstmt.setString(3, "서울");
-			
+
 			int result = pstmt.executeUpdate();
 //			Select의 결과를 담고있는 객체
-			
-			if(result>0) {
+
+			if (result > 0) {
 				System.out.println("입력되었습니다.");
 			}
 
 			pstmt.close();
 			conn.close();
 
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			// 4. ResultSet
-			
-			
-			
-			
-			
-			
-			
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

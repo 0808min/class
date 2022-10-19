@@ -32,7 +32,7 @@ public class SelectTest {
 
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, 10);
-			
+
 //			Select의 결과를 담고있는 객체
 			ResultSet rs = pstmt.executeQuery();
 
@@ -49,13 +49,6 @@ public class SelectTest {
 			conn.close();
 
 			// 4. ResultSet
-			
-			
-			
-			
-			
-			
-			
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

@@ -32,36 +32,18 @@ public class DeleteTest {
 
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, 50);
-			
-			
-			
+
 			int result = pstmt.executeUpdate();
 //			Select의 결과를 담고있는 객체
-			
-			if(result>0) {
+
+			if (result > 0) {
 				System.out.println("삭제되었습니다.");
 			}
 
 			pstmt.close();
 			conn.close();
 
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			// 4. ResultSet
-			
-			
-			
-			
-			
-			
-			
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
