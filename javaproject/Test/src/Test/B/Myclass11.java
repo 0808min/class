@@ -21,6 +21,7 @@ public class Myclass11<T> {
 		myClass.setVal("PARK");  
 		System.out.println(myClass.getVal());
 		
+		
 	}
 	
 }
