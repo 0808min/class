@@ -4,7 +4,7 @@ import dept.Main;
 import dept.domain.Dept;
 import dept.service.InsertService;
 
-public class InsertController {
+public class InsertController implements Controller {
 	
 	InsertService service = new InsertService();
 	
@@ -28,3 +28,4 @@ public class InsertController {
 	}
 
 }
+

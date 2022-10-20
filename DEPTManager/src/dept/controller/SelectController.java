@@ -2,28 +2,31 @@ package dept.controller;
 
 import java.util.List;
 
+import dept.dao.MysqlDao;
+import dept.dao.OracleDao;
 import dept.domain.Dept;
 import dept.service.SelectService;
 
-public class SelectController {
+public class SelectController implements Controller {
 	
-	SelectService service = new SelectService();
+	//SelectService service = new SelectService(new OracleDao());
+	SelectService service = new SelectService(new MysqlDao());
 	
 	public void process() {
 		
-//		»ç¿ëÀÚÀÇ ¿äÃ»À» Ã³¸® ÇÒ ¼­ºñ½º·Î ¿äÃ»
-//		ºÎ¼­ ÀüÃ¼ ¸®½ºÆ®¸¦ Ãâ·Â
-//		List<Dept>
+		// ì‚¬ìš©ìì˜ ìš”ì²­ì„ ì²˜ë¦¬í•  ì„œë¹„ìŠ¤ë¡œ ì²˜ë¦¬ ìš”ì²­
+		// ë¶€ì„œ ì „ì²´ ë¦¬ìŠ¤íŠ¸ë¥¼ ì¶œë ¥
+		// List<Dept> 
 		
 		List<Dept> list = service.select();
 		
-		if(list != null && !list.isEmpty()) {
+		if(list != null && !list.isEmpty()) { 
 			
 			for(Dept d : list) {
 				System.out.println(d);
 			}
 		} else {
-			System.out.println("°Ë»ö°á°ú ¾øÀ½");
+			System.out.println("ê²€ìƒ‰ ê²°ê³¼ ì—†ìŒ!");
 		}
 		
 	}

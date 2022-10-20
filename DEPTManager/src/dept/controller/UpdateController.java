@@ -4,33 +4,33 @@ import dept.Main;
 import dept.domain.Dept;
 import dept.service.UpdateService;
 
-public class UpdateController {
+public class UpdateController implements Controller {
 
 	UpdateService service = new UpdateService();
 
 	public void process() {
 
-//		»ç¿ëÀÚ µ¥ÀÌÅÍ ¿äÃ»
-		System.out.println("ºÎ¼­Á¤º¸ÀÇ ¼öÁ¤À» ½ÃÀÛÇÕ´Ï´Ù.");
+//		ì‚¬ìš©ì ë°ì´í„° ìš”ì²­
+		System.out.println("ë¶€ì„œì •ë³´ì˜ ìˆ˜ì •ì„ ì‹œì‘í•©ë‹ˆë‹¤.");
 
-		System.out.println("¼öÁ¤ÇÒ ºÎ¼­¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä. >> ");
+		System.out.println("ìˆ˜ì •í•  ë¶€ì„œë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”. >> ");
 		int deptno = Integer.parseInt(Main.sc.nextLine());
 
-		System.out.println("»õ·Î¿î ºÎ¼­ÀÌ¸§ >> ");
+		System.out.println("ìƒˆë¡œìš´ ë¶€ì„œì´ë¦„ >> ");
 		String dname = Main.sc.nextLine();
 
-		System.out.println("»õ·Î¿î Áö¿ªÀÌ¸§ >> ");
+		System.out.println("ìƒˆë¡œìš´ ì§€ì—­ì´ë¦„ >> ");
 		String loc = Main.sc.nextLine();
 
-//		¼öÁ¤Ã³¸®
+//		ìˆ˜ì •ì²˜ë¦¬
 
 		int result = service.update(new Dept(deptno, dname, loc));
 
-//		°á°úÃâ·Â
+//		ê²°ê³¼ì¶œë ¥
 		if (result > 0) {
-			System.out.println("¼öÁ¤µÇ¾ú½À´Ï´Ù.");
+			System.out.println("ìˆ˜ì •ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("¼öÁ¤½ÇÆĞ");
+			System.out.println("ìˆ˜ì •ì‹¤íŒ¨");
 		}
 
 	}

@@ -3,7 +3,7 @@ package dept.controller;
 import dept.Main;
 import dept.service.DeleteService;
 
-public class DeleteController {
+public class DeleteController implements Controller {
 	
 	DeleteService service = new DeleteService();
 	
