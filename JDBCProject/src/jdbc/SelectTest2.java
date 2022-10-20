@@ -2,6 +2,7 @@ package jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -26,25 +27,25 @@ public class SelectTest2 {
 //			}
 
 			// 3. Statement / PreparedStatement
-			Statement stmt = conn.createStatement();
+			String sql = "select * from dept where deptno=?";
 
-			String sql = "select * from dept";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, 10);
 
-			ResultSet rs = stmt.executeQuery(sql);
+			// Select의 결과를 담고 있는 객체
+			ResultSet rs = pstmt.executeQuery();
 
-			while (rs.next()) {
-//				int deptno = rs.getInt("deptno");
-//				String dname = rs.getString("dname");
-//				String loc = rs.getString("loc");
-				int deptno = rs.getInt(1);
-				String dname = rs.getString(2);
-				String loc = rs.getString(3);
+			if (rs.next()) {
+				int deptno = rs.getInt("deptno");
+				String dname = rs.getString("dname");
+				String loc = rs.getString("loc");
 
 				System.out.printf("%d \t %s \t %s \n", deptno, dname, loc);
 			}
 
 			rs.close();
-			stmt.close();
+			// stmt.close();
+			pstmt.close();
 			conn.close();
 
 			// 4. ResultSet
