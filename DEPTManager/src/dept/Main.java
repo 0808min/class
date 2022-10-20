@@ -32,14 +32,12 @@ public class Main {
 				controller.delete();
 				break;
 			case 6:	
+				controller.exit();
 				
 			}
-			
-			
-			
+
 		}
-		
-		
+	
 	}
 	
 	public static void menu() {
@@ -51,8 +49,5 @@ public class Main {
 		System.out.println("5. 부서 정보 삭제");
 		System.out.println("6. 종료");
 	}
-	
-	
-	
 
 }
