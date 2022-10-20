@@ -22,9 +22,7 @@ public class Controller {
 	public void select() {
 		try {
 
-			String dbUrl = "jdbc:oracle:thin:@localhost:1521:xe";
-			// String dbUrl = "jdbc:mysql://localhost:3306/project";
-			Connection conn = DriverManager.getConnection(dbUrl, "scott", "tiger");
+	
 			Statement stmt = conn.createStatement();
 
 			String sql = "select * from dept";
