@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        선택자 {속성이름 : 속성 값; 속성이름 : 값; ~;}
+        */
+        /* 전체선택*/
+        * {
+            color: green;
+        }
+
+        /*태그 선택자*/
+        h1 {
+
+            background-color: yellow;
+        }
+
+        p {
+
+            background-color: green;
+            background-color: rgb(128, 235, 199);
+            font-weight: bold;
+        }
+
+        body,
+        h1,
+        p {
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            border: 1px solid #000000;
+            margin: 10px;
+        }
+
+        /* 아이디 선택자 */
+        #header {
+            background-color: rgb(155, 136, 51);
+            padding: 10px;
+        }
+
+        #aside {
+            color: aquamarine;
+            width: 100px;
+            height: 100px;
+        }
+
+        #content {
+            background-color: darkorange;
+            color: cornsilk;
+
+        }
+
+        #footer {
+            background-color: violet;
+            color: blueviolet;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        /* 클래스 속성 선택 */
+        .font_bold {
+            font-weight: bold;
+        }
+
+        .font_italic {
+            font-style: italic;
+        }
+
+        .font_size32 {
+            font-size: 32px;
+        }
+
+        /* 속성 선택자 */
+        input[type] {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        input[type=text] {
+            background-color: springgreen;
+        }
+
+        input[type=password] {
+            background-color: black;
+        }
+
+        img[src] {
+            margin: 10px;
+        }
+
+        img[src$=jpg] {
+            border: 5px solid red;
+        }
+
+        /*범위를 지정해서 선태갛는 자손/후손 선택자*/
+        /*자손선택자*/
+        #div1>h1 {
+            color: red;
+        }
+
+        /*후손선택자*/
+        #div1 h1 {
+            background-color: aqua;
+        }
+
+        #div1>h1,
+        h2 {
+            margin: 20px;
+        }
+
+        /*동일한 위치(뎁스) 에서 태그를 선택 : 동위 선택자
+        기준 -> 선텍자*/
+        #div2>h1+h2 {
+            color: mediumblue;
+        }
+
+        #div2>h1~h2 {
+            background-color: goldenrod;
+        }
+
+
+        /* 반응선택자*/
+        h3 {
+            border: 3px solid #000000;
+        }
+
+        h3:hover {
+            background-color: tomato;
+            color: black;
+            padding: 20px;
+            font-size: 32px;
+        }
+
+        h3:active {
+            font-size: 16px;
+            color: aliceblue;
+        }
+
+
+
+        /*상태선택자*/
+
+        #uname {
+            outline: 0;
+        }
+
+        #uname:focus {
+            border: 10px solid pink;
+        }
+
+
+        #check:checked {
+            width: 50px;
+            height: 50px;
+        }
+
+        #uname:disabled {
+            background-color: blanchedalmond;
+        }
+
+        #menuCheck {
+            display: none;
+        }
+
+        #menuLabel:hover {
+            background-color: bisque;
+            cursor: pointer;
+        }
+
+        #menuCheck+div {
+            width: 300px;
+            background-color: aqua;
+            display: none;
+            overflow: hidden;
+        }
+
+        #menuCheck:checked+div {
+            width: 300px;
+            background-color: aqua;
+            display: block;
+        }
+
+        #menulist {
+            list-style: none;
+            overflow: hidden;
+        }
+
+        #menulist>li {
+            float: left;
+            padding: 10px 30px;
+        }
+
+        #menulist>li:first-child {
+            /*border-radius: 좌측상단, 우측상단, 우측하단,좌측하단*/
+            border-radius: 20px 0 0 20px;
+        }
+        #menulist>li:last-child {
+            border-radius: 0 20px 20px 0;
+        }
+        #menulist>li:nth-child(2n) {
+            background-color:aqua
+        }
+        #menulist>li:nth-child(2n+1) {
+            background-color:aquamarine
+        }
+
+        p::selection {
+            background-color: #000000;
+            color: yellow;
+        }
+
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: blueviolet;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: blue
+        }
+        
+        a:active {
+            color: red;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+
+    <ul id="menulist">
+        <li><a href="#">home</a></li>
+        <li><a href="http://www.naver.com">네이버</a></li>
+        <li><a href="http://github.com">깃허브</a></li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+
+    <ul id="menulist2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+
+    <hr>
+    <label id="menuLabel" for="menuCheck">
+        check</label> <input type="checkbox" id="menuCheck">
+    <div>
+        <h4>게임 타이틀</h4>
+        <p>요즘 제일 핫한 게임은 탕탕 특공대</p>
+
+    </div>
+
+
+    <hr>
+    <input type="text" id="uname" disabled>
+    <br>
+    <input type="checkbox" id="check">
+
+
+
+    <hr>
+
+    <h3>action</h3>
+
+    <hr>
+
+    <div id="div2">
+        <h1>Header - 1</h1>
+        <h2>Header - 2</h2>
+        <h2>Header - 2</h2>
+        <h2>Header - 2</h2>
+        <h2>Header - 2</h2>
+    </div>
+    <hr>
+    <div id="div1">
+        <h1>h1 - heading</h1>
+        <h2>h2 - heading2</h2>
+        <ul>
+            <li>
+                <h1>li - heading</h1>
+            </li>
+            <li>li - 2</li>
+            <li>li - 3</li>
+        </ul>
+    </div>
+
+
+    <hr>
+
+    <img src="../html5/mini.jpg" width="100">
+
+    <hr>
+
+    <input type="text"> <input type="password">
+
+    <hr>
+    <div id="header" class="font_bold font_italic font_size32">header</div>
+    <div id="aside" class="font_size32">aside</div>
+    <div id="content" class="font_italic">content</div>
+    <div id="footer" class="font_bold font_italic font_size32">footer</div>
+
+
+    <hr>
+
+    <h1>[이재성] 바이에른 뮌헨이 내게 중요한 이유 </h1>
+    <p>
+        바이에른 뮌헨에 대한 이야기를 한 번쯤 꼭 나누고 싶었다. 이 팀의 위력을 제대로 느낀 지금이 적기라는 생각이 들었다. 세계적인 팀은 역시 달랐고, 그 팀을 응원하는 관중으로 꽉 찬 알리안츠 아레나의
+        분위기도 남달랐다. 비록 우리가 크게 졌지만 개인적으로 많은 걸 느낀 경기였다. 바이에른에 대한 나의 감상을 독자분들과 나누고자 한다.
+    </p>
+
+
+</body>
+
+</html>
