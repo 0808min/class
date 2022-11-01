@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 100px;
+            height: 100px;
+
+            border: 3px solid #000;
+
+            float: left;
+        }
+
+        footer {
+            border: 1px solid #eee;
+            background-color: #a3d;
+
+            clear: both;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+
+            border: 3px solid #000;
+
+            /* float: right; */
+
+        }
+
+        #footer {
+            background-color: aqua;
+            width: 1000px;
+        }
+
+        #wrap {
+            overflow: hidden;
+            width: 1000px;
+        }
+
+        #box1 {
+            float: left;
+            width: 190px;
+        }
+
+        #box2 {
+            float: right;
+            width: 790px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="wrap">
+        <div id="box1" class="box2">aside</div>
+        <div id="box2" class="box2">content</div>
+    </div>
+
+    <div id="footer">footer</div>
+    <hr>
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <footer>footer</footer>
+</body>
+
+</html>

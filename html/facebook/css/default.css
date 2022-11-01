@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(48, 48, 48, 0.579);
+}
+#logo>h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    padding: 30px;
+    margin: auto;
+}
