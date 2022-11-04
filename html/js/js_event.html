@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let cnt
+        
+
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            ///////////////////////////////////////
+            // 글자 수 체크 : keyup
+            cnt = document.querySelector('#cnt')
+            const textarea = document.querySelector('textarea')
+            textarea.addEventListener('keyup', listener)
+
+            const select = document.querySelector('select')
+            const pMsg = document.querySelector('#selectMsg')
+
+            select.addEventListener('change', (event) => {
+
+                const options = event.currentTarget.options
+                //console.log(options)
+                const index = event.currentTarget.options.selectedIndex
+                //console.log(index)
+                let msg = `select : ${options[index].textContent}`
+                console.log(msg)
+
+                pMsg.textContent = msg
+
+              
+            })
+
+
+            const rMsg = document.querySelector('#checkedMsg')
+            const radios = document.querySelectorAll('input[name=lang]');
+
+            radios.forEach((radio) => {
+                radio.addEventListener('change', (event) => {
+                    const currentRadio = event.currentTarget
+                    if(currentRadio.checked){
+                        rMsg.textContent = `checked : ${currentRadio.value}`;
+                    }
+                })
+            })
+
+
+        })
+        
+        const listener = function(event){
+            const length = event.currentTarget.value.length
+            //console.log(event.currentTarget.value)
+            cnt.textContent = `글자 수 : ${length}`
+        }
+
+    </script>
+</head>
+<body>
+
+
+    <h3>관심 있는 언어를 선택하세요</h3>
+    <input type="radio" name="lang" value="java"> java<br>
+    <input type="radio" name="lang" value="SQL"> SQL<br>
+    <input type="radio" name="lang" value="HTML5"> HTML5<br>
+    <p id="checkedMsg"></p>
+
+
+    <hr>
+
+    <select>
+        <option value="java">JAVA</option>
+        <option value="sql">SQL</option>
+        <option value="html">HTML5</option>
+        <option value="css">CSS</option>
+        <option value="javascript">Javascript</option>
+    </select>
+    <p id="selectMsg"></p>
+
+    <hr>
+
+    <h4>키보드 이벤트</h4>
+    <textarea></textarea>
+    <h4 id="cnt">글자 수 :</h4>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+}
+
+header {
+    padding: 30px;
+    font-size: 25px;
+}
+
+#regFormArea {
+    padding: 20px;
+}
+
+#regForm {
+    padding: 15px;
+}
+
+#list {
+
+    list-style:lower-alpha;
+  
+}
+
+#editFormArea {
+
+}
+
