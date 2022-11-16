@@ -13,5 +13,4 @@
 
    <context:component-scan base-package="org.example.di"/>
 
-
 </beans>

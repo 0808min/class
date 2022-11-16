@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class ChangePasswordService {
 
-	@Autowired(required = true)
+	@Autowired
 //	@Qualifier("member")
-	private Dao dao;
+	private MemberDao memberDao;
 
 //	public ChangePasswordService(MemberDao memberDao) {
 //
@@ -22,13 +22,13 @@ public class ChangePasswordService {
 //	}
 
 	public void changePassword(String email, String oldPwd, String newPwd) throws IdPasswordNotMatchingException, MemberNotFoundException {
-		Member member = dao.selectByEmail(email);
+		Member member = memberDao.selectByEmail(email);
 		if (member == null)
 			throw new MemberNotFoundException();
 
 		member.changePassword(oldPwd, newPwd);
 
-		dao.update(member);
+		memberDao.update(member);
 	}
 
 }
