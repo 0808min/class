@@ -10,15 +10,12 @@
 	<bean id="Daoimpl" class="org.example.di.dao.DaoImpl"></bean>
 
 
-	<bean id="memberregSvc" class="org.example.di.service.MemberRegisterService2">
-		<!--		MemberRegisterService2 에는 기본 생성자가 반드시 존재-->
-		<property name="memberDao">
-<!--			<ref bean="memberDao"/>-->
-			<bean class="org.example.di.dao.MemberDao"/>
-		</property>
+	<bean id="memberregSvc" class="org.example.di.service.MemberRegisterService"
+		  scope="singleton" p:memberDao-ref="memberDao">
+<!--		<constructor-arg ref="memberDao"/>-->
 	</bean>
 
-	<bean id="memberPwSvc" class="org.example.di.service.ChangePasswordService">
+	<bean id="memberPwSvc" class="org.example.di.service.ChangePasswordService" scope="prototype">
 		<constructor-arg ref="memberDao" />
 	</bean>
 

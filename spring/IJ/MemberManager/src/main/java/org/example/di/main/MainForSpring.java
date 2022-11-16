@@ -7,22 +7,23 @@ import org.example.di.exception.IdPasswordNotMatchingException;
 import org.example.di.exception.MemberNotFoundException;
 import org.example.di.service.ChangePasswordService;
 import org.example.di.service.MemberRegisterService;
+import org.example.di.service.MemberRegisterService2;
+import org.springframework.context.support.GenericXmlApplicationContext;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainForAssembler {
+public class MainForSpring {
 
-    private static Assembler assembler = new Assembler();
+//    private static Assembler assembler = new Assembler();
 
-    /*
-     * private static MemberRegisterService registerService =
-     *
-     * assembler.getRegistService();
-     */
+    private static GenericXmlApplicationContext ctx = null;
 
     public static void main(String[] args) throws IOException {
+
+//        ctx = new GenericXmlApplicationContext("classpath:appCtx.xml");
+        ctx = new GenericXmlApplicationContext("classpath:appCtx1.xml");
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -57,7 +58,7 @@ public class MainForAssembler {
             return;
         }
 
-        MemberRegisterService service = assembler.getMemberRegisterService();
+        MemberRegisterService service = ctx.getBean("memberregSvc", MemberRegisterService.class);
 
         RegisterRequest request = new RegisterRequest();
         request.setEmail(args[1]);
@@ -89,7 +90,7 @@ public class MainForAssembler {
             return;
         }
 
-        ChangePasswordService service = assembler.getChangePasswordService();
+        ChangePasswordService service = ctx.getBean("memberPwSvc", ChangePasswordService.class);
 
         try {
             service.changePassword(args[1], args[2], args[3]);
