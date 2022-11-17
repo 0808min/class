@@ -11,8 +11,8 @@
 
 
 	<bean id="memberregSvc" class="org.example.di.service.MemberRegisterService"
-		  scope="singleton" p:memberDao-ref="memberDao">
-<!--		<constructor-arg ref="memberDao"/>-->
+		  scope="singleton">
+		<constructor-arg ref="memberDao"/>
 	</bean>
 
 	<bean id="memberPwSvc" class="org.example.di.service.ChangePasswordService" scope="prototype">

@@ -15,7 +15,8 @@
 <!--		<constructor-arg ref="memberDao"/>-->
 	</bean>
 
-	<bean id="memberPwSvc" class="org.example.di.service.ChangePasswordService" scope="prototype">
+	<bean class="org.example.di.service.ChangePasswordService"
+		  scope="prototype">
 		<constructor-arg ref="memberDao" />
 	</bean>
 
