@@ -33,13 +33,15 @@ public class TodoInsertController {
            @RequestParam("dueDate") String dueDate
     ) {
 
-//        사용자가 입력한 데이터를 받아와야 한다
+
 
         log.info(todo);
         log.info(dueDate);
 
         TodoDTO todoDTO = TodoDTO.builder().todo(todo)
                 .dueDate(LocalDate.parse(dueDate)).build();
+
+        //        사용자가 입력한 데이터를 받아와야 한다
         log.info("todoDTO => " + todoDTO);
 
         todoService.insertTodo(todoDTO);
