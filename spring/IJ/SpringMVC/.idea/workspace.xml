@@ -5,42 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22fca54-997e-44f5-906e-4968d70a7d4b" name="Changes" comment="MVC">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/controller/sampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/domain/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sample.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sample2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sample3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/java/com/todo/todo/Controller/TodoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/java/com/todo/todo/Domain/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/java/com/todo/todo/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/WEB-INF/views/todo/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/WEB-INF/views/todo/read.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Todo/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../miniproject/Potato_market" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/views/todo/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/views/todo/read.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +90,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "b1876d470a918723f0812953710abbdf"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -206,7 +199,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668651512841</updated>
-      <workItem from="1668651515172" duration="20956000" />
+      <workItem from="1668651515172" duration="22463000" />
+      <workItem from="1668732005505" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="MVC">
       <created>1668658821128</created>
