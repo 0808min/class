@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<h1>Index page</h1>
+  <h1>Index Page</h1>
 
 </body>
 </html>
