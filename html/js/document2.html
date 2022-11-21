@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // 이벤트 설정
+        // document.addEventListener('이벤트 이름', 핸들러함수)
+        document.addEventListener('DOMContentLoaded', () => {
+            let h1 = document.querySelector('h1')
+            // console.log(h1, typeof h1)
+            // console.log(h1.textContent) 
+            // console.log(h1.innerHTML)
+            // console.log(h1.innerText)
+            // h1.textContent = 'HEADER'
+
+            h1.style.backgroundColor = 'green'
+            h1.style.color = 'yellow'
+            h1.style.padding = '10px'
+            h1.style.margin = '20px'
+            h1.style.fontSize = 'small'
+
+
+            //////////////////////////////////////////////////////////////
+
+
+            let headers = document.querySelectorAll('h1')
+            //  console.log(headers)
+            headers.forEach((item) => {
+                item.textContent = 'header'
+                item.style.backgroundColor = 'red'
+                item.style.color = 'white'
+            })
+
+
+            let header = document.getElementById('header')
+            header.textContent = 'last Header'
+
+            let div = document.querySelector('#msg')
+            // div.textContent = '안녕하세요'
+            // div.innerHTML = '<h1>안녕하세요</h1>'
+            div.textContent = '<h1>안녕하세요</h1>'
+
+
+
+
+            // 속성 컨트롤
+            let link = document.querySelector('a')
+
+            let href = link.getAttribute('href')
+            console.log('href', href)
+            link.setAttribute('href', 'http://www.google.com')
+            link.setAttribute('link-index')
+            console.log('index', index)
+
+
+        })
+
+
+
+
+
+
+    </script>
+
+</head>
+
+
+
+<body>
+
+    <h2><a href="https://www.naver.com">네이버</a></h2>
+
+    <div id="msg">
+
+    </div>
+
+    <h1><i>안녕하세요</i></h1>
+    <h1>안녕하세요</h1>
+    <h1>안녕하세요</h1>
+    <h1>안녕하세요</h1>
+    <h1 id="header">안녕하세요</h1>
+
+</body>
+
+</html>

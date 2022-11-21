@@ -25,6 +25,7 @@ public class InsertController implements Controller {
 		} else {
 			System.out.println("입력 실패");
 		}
+		
 	}
 
 }

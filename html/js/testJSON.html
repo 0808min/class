@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const obj = {}
+        // console.log(obj, typeof obj)
+
+        const menu = {
+            prodoctName: '아메리카노',
+            price: 3000,
+            ctgy: '음료',
+            makeCoffee: function () {
+                // console.log((`원두와 뜨거운 물을 섞어서 ${this['prodoctName']}를 제조`))
+            }
+        }
+
+        // {
+        //     "prodoctName" : "아메리카노",
+        //     "price" : 3000,
+        //     "ctgy" : "음료",     
+        // }
+
+        // 서버통신 서버에서 JSON형식의 데이터를 결과로 받는다
+        // JSON => 자바스크립트의 객체로 변환
+
+
+        // console.log(menu)
+
+        // 식별자.키, 식별자['키']
+        // console.log(menu.prodoctName)
+        // console.log(menu['price'])
+        // console.log(menu.ctgy)
+
+        menu.price = 1000
+        // console.log(menu)
+
+        menu.makeCoffee()
+
+        // 속성의 동적추가
+
+        menu.event = true
+
+        if (menu.event) {
+            // alert('이벤트 상품입니다.')
+        }
+
+        // 속성의 동적 제거
+        delete menu.event
+        // console.log(menu)
+
+        let number = new Number(10000.123)
+        console.log(number)
+        console.log(number.toFixed(2))
+        console.log(123.456.toFixed(2))
+
+        let str = new String('안녕하세요')
+        let bool = new Boolean(true)
+        let arr = new Array()
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

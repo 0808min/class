@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+
+    const date = new Date();
+    console.log(date)
+    console.log(date.toDateString())
+    console.log(date.toString())
+
+    console.log('년도', date.getFullYear())
+    console.log('월', date.getMonth()+1)
+    console.log('일', date.getDate())
+    console.log('시간', date.getHours())
+    console.log('분', date.getMinutes())
+    console.log('초', date.getSeconds())
+
+    // 현재 시각에 따라 
+    // 오전과 오후를 구분하는 프로그램을 만들어 봅시다
+    if(date.getHours() > 12) {
+        console.log('오후 PM')
+    } else {
+        console.log('오전 AM')
+    }
+
+    let msg = date.getHours()>12 ? '오후 입니다.' : '오전 입니다.'  ;
+    console.log(msg)
+
+    let number = 100;
+
+    if(number > 0) {
+        console.log('양수')
+    } else if(number < 0) {
+        console.log('음수')
+    } else {
+        console.log(0)
+    }
+
+    // 짝수 홀수 판별 프로그램을 만들어 봅시다.
+    switch (number%2) {
+        case 1:
+            console.log('홀수')
+            break;
+        case 0:
+            console.log('짝수')
+            break;
+    }
+
+    let num = 1000;
+    console.log('num', num)
+
+    num = num || 100;
+    console.log('num', num)
+
+
+</script>
+
+
+
+
+
+
+
+
+

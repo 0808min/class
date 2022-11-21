@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const loginform = document.querySelector('form')
+            const userid = document.querySelector('#userid')
+
+            document.addEventListener('submit', (event) => {
+                // console.log('전송 버튼이 클릭되었습니다.')
+
+                const userid = document.querySelector('#userid')
+                const pw = document.querySelector('#pw')
+
+                // String search => 0 / -1
+                console.log(userid.value.search(/[a-zA-Z0-9]/))
+                console.log(/[a-zA-Z0-9]/.test(userid.value))
+
+                if (/[a-zA-Z0-9]/.test(userid.value)) {
+                    alert('아이디는 대문자 소문자만을 조합하는 문자열 입력만 가능합니다.')
+
+                    event.preventDefault()
+                }
+
+
+            })
+            userid.addEventListener('focusin', (event) => {
+                console.log('focus in')
+            })
+            userid.addEventListener('focusout', (event) => {
+                console.log('focus out')
+                const val = event.target.value
+                console.log('val', val, /[a-zA-Z0-9]/.test(val))
+
+                if (!/[a-zA-Z0-9]/.test(val)) {
+                    alert('영문 소문자 영문 대문자 숫자만 입력 가능')
+                }
+            })
+
+        })
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+    <h1>로그인 폼</h1>
+    <form action="https://www.naver.com" method="get">
+
+        ID<input type="text" name="userid" id="userid">
+        PW<input type="password" name="pw" id="pw">
+        <input type="submit" value="로그인">
+    </form>
+
+
+</body>
+
+</html>

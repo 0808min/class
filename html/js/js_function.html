@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+
+
+<script>
+
+    
+    fn2();
+
+    const fn1 = function(){
+        console.log('fn1 함수 호출')
+    }
+
+    fn1();
+
+    function fn2(){
+        console.log('fn2 함수 호출')
+    }
+
+    console.log(typeof fn1)
+    console.log(typeof fn2)
+
+    // 함수 : 데이터를 받아서 -> 처리 -> 값을 반환
+
+    console.log('\n')
+
+    function add(num1, num2){
+        console.log('num1', num1)
+        console.log('num2', num2)
+
+        console.log('num1 == undefined || num2 == undefined', num1 == undefined || num2 == undefined)
+
+        if(num1 == undefined || num2 == undefined ){
+            console.log('연산 불가')
+        }
+
+        num1 = num1 || 0;
+        num2 = num2 || 0;
+
+        return num1+num2
+    }
+
+    //console.log(add(10, 20)) 
+    console.log(add()) 
+
+    console.log()
+
+    function addAll(...items){
+        console.log(items);
+        let sum = 0;
+        for (const item of items) {
+            sum += item
+        }
+        return sum
+    }
+    
+    addAll(1,2,3,4,5)
+    console.log('sum :', addAll(1,2,3))
+
+    // 전달받은 숫자 중 가장 큰수를 반환하는 함수를 만들어봅시다.
+
+    function max(...items){
+        let max = items[0]
+        for(const num of items){
+            if (num > max){
+                max = num
+            }
+        }
+        return max
+    }
+
+    console.log('최대 값 : ', max(10,4,59,113,50,))
+
+    function fn3(num1, num2, ...items){
+        console.log(items)
+    }
+
+    fn3(1,2) // items => []
+    fn3(1,2,3) // items => [3]
+    fn3(1,2,3,4) // items => [3,4]
+
+    function fn4(...items){
+        console.log(items)
+    }
+
+    const arr2 = [1,2,3]
+
+    fn4(arr2)
+    fn4(...arr2)
+/* 
+    –매개변수로 시급과 시간을 입력받아 급여를 계산하는 함수를 만들어 봅시다
+    •함수 이름: earnings
+    •매개변수: name(이름), wage(시급), hours(시간)
+    •함수의 역할: 이름, 시급, 시간을 출력하고, 
+                시급과 시간을 곱한 최종 급여 출력
+    •만약 wage와 hours를 입력하지 않고 실행하면 
+            wage에 최저 임금이 들어가고, 
+            hours에 법정근로시간 1주일 40시간이 기본 매개변수로 입력
+ */
+
+    function earnings(name, wage=11000, hours=40){
+
+        // wage = wage || 11000;
+
+        console.log('')
+        console.log(`${name} 님의 급여 상세 ======`)
+        console.log(`시급 : ${wage} 원`)
+        console.log(`근무 시간 : ${hours} 시간`)
+        console.log(`급여 총액 : ${wage*hours}`)
+    }
+
+    earnings('KING', 12000, 80)
+    earnings('SCOTT', 11000)
+    earnings('SMITH')
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let willEval = 'var num = 10;';
+        willEval += 'alert(num);'
+
+        eval(willEval)
+
+
+
+        /////////////////////////////////////
+
+
+        // setTimeout
+        //setTimeout(function(){console.log('setTimeout')},3000)
+        let id1 = setTimeout(() => console.log('setTimeout'),3000)
+        clearTimeout(id1)
+
+        let n = 0;
+
+        let id2 = setInterval(() => {
+            console.log('1.5초마다 출력', n++)
+            if(n === 3){
+                console.log('3번 출력되어서 반복을 멈춥니다.')
+                clearInterval(id2)
+            }
+        },1500)
+
+
+        ///////////////////////////////////
+
+        let arr = [1,2,3,4,5];
+
+        arr.forEach(function(val){
+            console.log(val)
+        });
+
+        console.log('')
+
+        arr.forEach( (val,index) => {
+            console.log(val, index)
+        });
+
+        console.log('')
+
+        arr.filter( (val, index) => {
+                // ....
+                return val%2 == 1 
+            })
+           .map( val => val*val )
+           .forEach(console.log)
+
+
+    function callbackFn(num1, num2, callback){
+        return callback(num1, num2)
+    }
+
+    // let result = callbackFn(10, 20, function(n1, n2) {
+    //     // 더하기 연산 후 결과 값을 반환
+    //     return n1+n2;
+    // })
+    let result = callbackFn(30, 20, (n1, n2) => n1*n2)
+    console.log('')
+    console.log('result', result)
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+</body>
+</html>

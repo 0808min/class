@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag2</title>
+    <style>
+        .input {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- method : get / post -->
+    <form action="#" method="post">
+
+        <!-- username = 사용자가 입력한 문자열 -->
+        <input type="text" name="username" id="username" value="hot" readonly disabled class="input">
+        <br>
+        <input type="password" name="pw" id="pw" class="input" required>
+        <br>
+        <input type="checkbox"> 개인정보 활용 동의
+        <br>
+        <input type="checkbox" name="lang" value="java" checked> JAVA
+        <input type="checkbox" name="lang" value="Mysql"> Mysql
+        <input type="checkbox" name="lang" value="Html5"> Html5
+        <hr>
+        <input type="radio" name="like" value="music"> 음악
+        <input type="radio" name="like" value="book"> 독서
+        <input type="radio" name="like" value="movie" checked> 영화
+        <hr>
+        <input type="date" name="date">
+        <input type="time" name="time">
+        <input type="datetime-local">
+        <input type="month">
+        <input type="week">
+        <hr>
+        <input type="file">
+
+        <hr>
+        나이<input type="number">
+        <hr>
+        이메일<input type="email" name="email" id="email">
+        <hr>
+        전화번호 <input type="tel">
+        <hr>
+        url <input type="url">
+        <hr>
+        <input type="image" src="mini.jpg" width="100">
+        <hr>
+        <input type="range" name="age" min="1" max="100">
+        <hr>
+        <select name="year">
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+        <hr>
+
+        <textarea cols="20" rows="10">내용을 입력하세요</textarea>
+
+        <hr>
+        <input type="hidden" name="userid" value="hot"> 화면에 보여지지 않는 값
+        <hr>
+        <input type="submit" value="가입">
+        <input type="reset" value="다시쓰기">
+        <input type="button" value="버튼">
+        <button> 전송하기 버튼 </button>
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>

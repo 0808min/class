@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+    //console.log('JS')
+    //alert('하이!!');
+    //console.log( confirm('삭제하시겠습니까?') )
+
+
+    /* test */
+
+
+
+    console.log(typeof Boolean(10), Boolean(10))
+    console.log(typeof Boolean('aa'), Boolean('aa'))
+    console.log(typeof Boolean([]), Boolean([]))
+    console.log(typeof Boolean({}), Boolean({}))
+    console.log(typeof Boolean(null), Boolean(null))
+
+    let bool2 = NaN;
+    console.log('bool2', bool2, typeof bool2, Boolean(bool2) )
+
+    // '' 0 null NaN
+
+
+
+
+    ///////////////////////////////////////
+
+    let str1 = String(100)
+    console.log('str1', str1, typeof str1)
+    
+    let bool1 = String(false)
+    console.log('bool1', bool1, typeof bool1)
+
+    let str2 = 100 + '';
+    let str3 = true + '';
+    console.log('str2', typeof str2,'str3', typeof str3)
+
+
+
+
+
+
+    
+    const str = '1000' //= prompt('금액을 입력하세요')
+    console.log('str', str, typeof str)
+
+    // Number(문자열)
+
+    let num = Number(str)
+    console.log('num', num, typeof num)
+
+    // NaN -> Not a Number
+
+    let num1 = parseInt(str)
+    console.log('num1', num1, typeof num1)
+
+    let num2 = parseFloat(str)
+    console.log('num2', num2, typeof num2)
+
+
+</script>
