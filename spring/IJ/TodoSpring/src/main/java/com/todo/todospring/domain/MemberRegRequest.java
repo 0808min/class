@@ -3,12 +3,10 @@ package com.todo.todospring.domain;
 import lombok.*;
 import org.springframework.web.multipart.MultipartFile;
 
-
-
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter
 @Getter
+@Setter
 @ToString
 public class MemberRegRequest {
 
@@ -17,18 +15,13 @@ public class MemberRegRequest {
     private String uname;
     private MultipartFile uphoto;
 
-
-
-
     public Member toMember() {
         Member member = Member.builder()
-                .idx()
-                .uuid()
-                .pw()
-                .uid()
-                .uname()
-                .uphoto()
-                .build()
+                .uid(this.uid)
+                .pw(this.pw)
+                .uname(this.uname)
+                .build();
+        return member;
     }
 
 }

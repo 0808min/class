@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.time.LocalDate;
 
+@Log4j2
 @Controller
 @RequestMapping("/todo/register")
-@Log4j2
 public class TodoInsertController {
 
     private final TodoService todoService;
@@ -23,30 +23,31 @@ public class TodoInsertController {
     }
 
     @GetMapping
-    public String getInsertForm() {
+    public String getInsertForm(){
         return "todo/register";
     }
 
     @PostMapping
     public String insert(
-           @RequestParam("todo") String todo,
-           @RequestParam("dueDate") String dueDate
-    ) {
-
-
+            @RequestParam("todo") String todo,
+            @RequestParam("dueDate") String dueDate
+    ){
 
         log.info(todo);
         log.info(dueDate);
 
-        TodoDTO todoDTO = TodoDTO.builder().todo(todo)
-                .dueDate(LocalDate.parse(dueDate)).build();
+        TodoDTO todoDTO = TodoDTO.builder()
+                .todo(todo)
+                .dueDate(LocalDate.parse(dueDate))
+                .build();
 
-        //        사용자가 입력한 데이터를 받아와야 한다
+        // 사용자가 입력한 데이터를 받아와야한다!!!
         log.info("todoDTO => " + todoDTO);
 
         todoService.insertTodo(todoDTO);
 
         return "redirect:/todo/list";
     }
+
 
 }

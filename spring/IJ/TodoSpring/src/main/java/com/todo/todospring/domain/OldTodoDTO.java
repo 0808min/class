@@ -1,6 +1,7 @@
 package com.todo.todospring.domain;
 
 public class OldTodoDTO {
+
     private long tno;
     private String todo;
     private String dueDate;

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TodoListController {
 
-//    @Autowired
+    //@Autowired
     private final TodoService todoService;
 
     public TodoListController(TodoService todoService) {
@@ -16,17 +16,11 @@ public class TodoListController {
     }
 
 
-//    public TodoListController(TodoServiceOld todoService) {
-//        this.todoService = todoService;
-//    }
-
     @RequestMapping("/todo/list")
-    public String getTodolist(Model model) {
+    public String getTodoList(Model model){
 
-        model.addAttribute("todoList",todoService.getTodoList());
-
+        model.addAttribute("todoList", todoService.getTodoList());
 
         return "todo/list";
     }
-
 }

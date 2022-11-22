@@ -3,7 +3,7 @@ plugins {
     id 'war'
 }
 
-group 'com.firstcoding.mvc'
+group 'com.todo'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -33,11 +33,6 @@ dependencies {
     implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.16'
 
 
-    // https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload
-    implementation group: 'commons-fileupload', name: 'commons-fileupload', version: '1.3.3'
-
-    // https://mvnrepository.com/artifact/commons-io/commons-io
-    implementation group: 'commons-io', name: 'commons-io', version: '2.5'
 
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.31'
@@ -45,6 +40,13 @@ dependencies {
     // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
     implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
 
+
+
+    // https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload
+    implementation group: 'commons-fileupload', name: 'commons-fileupload', version: '1.3.3'
+
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    implementation group: 'commons-io', name: 'commons-io', version: '2.5'
 
 
 

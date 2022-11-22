@@ -18,7 +18,5 @@ public class LoginService {
     public Member login(String uid, String pw) throws Exception {
         @Cleanup Connection conn = ConnectionProvider.getInstance().getConnection();
         return memberDao.selectByIdPw(conn, uid, pw);
-
     }
-
 }

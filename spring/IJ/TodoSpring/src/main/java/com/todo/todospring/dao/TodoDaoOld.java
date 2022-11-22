@@ -7,8 +7,7 @@ import org.springframework.stereotype.Repository;
 @Log4j2
 public class TodoDaoOld {
 
-    public void selectAll() {
-        log.info("TodoDao.selectAll() 메소드 실행");
+    public void selectAll(){
+        log.info("TodoDao.selectAll() 메소드 실행 ...");
     }
-
 }

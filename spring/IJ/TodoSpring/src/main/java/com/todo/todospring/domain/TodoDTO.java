@@ -17,6 +17,4 @@ public class TodoDTO {
     private LocalDate dueDate;
     private boolean finished;
 
-
-
 }

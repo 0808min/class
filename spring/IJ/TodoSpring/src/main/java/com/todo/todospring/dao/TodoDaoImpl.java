@@ -1,5 +1,6 @@
 package com.todo.todospring.dao;
 
+
 import com.todo.todospring.domain.TodoDTO;
 import lombok.Cleanup;
 import org.springframework.stereotype.Repository;
@@ -42,14 +43,14 @@ public class TodoDaoImpl implements TodoDao {
                 rs.getDate(3).toLocalDate(),
                 rs.getBoolean(4));
 
-
-//        TodoDTO dto = TodoDTO.builder()
-//            .tno(rs.getLong(1))
-//            .todo(rs.getString(2))
-//            .dueDate(rs.getDate(3).toLocalDate())
-//            .finished(rs.getBoolean(4))
-//            .build();
-
+        /*
+        TodoDTO dto = TodoDTO.builder()
+            .tno(rs.getLong(1))
+            .todo(rs.getString(2))
+            .dueDate(rs.getDate(3).toLocalDate())
+            .finished(rs.getBoolean(4))
+            .build();
+        */
 
         return dto;
 
