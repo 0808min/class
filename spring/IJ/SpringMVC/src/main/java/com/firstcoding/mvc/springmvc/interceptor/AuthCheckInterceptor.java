@@ -22,7 +22,7 @@ public class AuthCheckInterceptor implements HandlerInterceptor {
         // 회원 로그인 상태 체크
         HttpSession session = request.getSession(false);
 
-        // 회원이 로그인 상태 체크
+        // 회원의 로그인 상태 체크
         if(session != null && session.getAttribute("loginInfo") != null){
             log.info("로그인 상태!!!!");
             return true;

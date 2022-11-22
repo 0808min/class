@@ -40,7 +40,7 @@ public class FileUploadController {
 
         log.info("학번 : " + snum);
         log.info("이름 : " + sname);
-        log.info("리포트 파일 : " + report.getOriginalFilename() );
+        log.info("리포트 파일 : " + report.getOriginalFilename());
 
 
         // web 경로
