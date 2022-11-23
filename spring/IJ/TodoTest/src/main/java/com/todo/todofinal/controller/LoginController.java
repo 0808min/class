@@ -2,8 +2,8 @@ package com.todo.todofinal.controller;
 
 import com.todo.todofinal.domain.Member;
 import com.todo.todofinal.service.LoginService;
-import com.todo.todospring.domain.Member;
-import com.todo.todospring.service.LoginService;
+import com.todo.todofinal.domain.Member;
+import com.todo.todofinal.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

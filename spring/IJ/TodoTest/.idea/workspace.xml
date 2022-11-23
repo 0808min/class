@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70ec033a-4136-4360-b763-448344c7aa0e" name="Changes" comment="Todo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/domain/LoginInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoInsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoInsertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/formatter/CheckBoxFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/formatter/CheckBoxFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/Interceptor/AuthCheckInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/formatter/CheckBoxFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/formatter/LocalDateFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/loginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/util/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/util/ConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/controller/TodoInsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/controller/TodoInsertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/dao/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/dao/MemberDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/dao/MemberDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/service/MemberRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/service/MemberRegService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/util/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/util/ConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/dao/TodoDaoOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/domain/OldTodoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/todofinal/service/TodoServiceOld.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,37 +61,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/TodoTest&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c023ac4997ad8fff1d5e1bde27d43deb&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/TodoTest/src/main/java/com/todo/todofinal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "c023ac4997ad8fff1d5e1bde27d43deb"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.todo.todofinal.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\TodoTest\src\main\java\com\todo\todofinal" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\TodoTest\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\TodoFinal\src\main\resources" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\TodoFinal\src\main\java\com\todo\todofinal\service" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\TodoFinal\src\main\webapp\WEB-INF\uploadfile" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\TodoFinal\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\TodoFinal\src\main\java\com\todo\todofinal\domain" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.todo.todofinal.Interceptor" />
       <recent name="com.todo.todofinal.domain" />
       <recent name="com.todo.todofinal.service" />
       <recent name="com.todo.todofinal.controller" />
@@ -204,6 +203,7 @@
       <workItem from="1669162712257" duration="668000" />
       <workItem from="1669163962535" duration="1743000" />
       <workItem from="1669172159835" duration="3353000" />
+      <workItem from="1669180147820" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="Todo">
       <created>1669106976996</created>

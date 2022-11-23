@@ -5,7 +5,6 @@ import com.todo.todospring.domain.Member;
 import com.todo.todospring.domain.MemberRegRequest;
 import com.todo.todospring.util.ConnectionProvider;
 import lombok.extern.log4j.Log4j2;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
@@ -17,8 +16,12 @@ import java.sql.Connection;
 @Log4j2
 public class MemberRegService {
 
-    @Autowired
+
     private MemberDao memberDao;
+
+    public MemberRegService(MemberDao memberDao) {
+        this.memberDao = memberDao;
+    }
 
     // 사용자 요청 데이터를 받고, 파일 업로드 처리, Dao insert 요청
     public int memberReg(MemberRegRequest regRequest, HttpServletRequest request) throws Exception {

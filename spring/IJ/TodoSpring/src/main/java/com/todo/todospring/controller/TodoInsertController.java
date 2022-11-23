@@ -23,7 +23,7 @@ public class TodoInsertController {
     }
 
     @GetMapping
-    public String getInsertForm(){
+    public String getInsertForm() {
         return "todo/register";
     }
 
@@ -32,7 +32,7 @@ public class TodoInsertController {
 //            @RequestParam("todo") String todo,
 //            @RequestParam("dueDate") String dueDate
             TodoDTO todoDTO
-    ){
+    ) {
 
         log.info(todoDTO.getTodo());
         log.info(todoDTO.getDueDate());

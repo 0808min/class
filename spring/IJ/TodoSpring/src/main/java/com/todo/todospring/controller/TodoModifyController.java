@@ -3,7 +3,6 @@ package com.todo.todospring.controller;
 import com.todo.todospring.domain.TodoDTO;
 import com.todo.todospring.service.TodoService;
 import lombok.extern.log4j.Log4j2;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,20 +10,22 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.time.LocalDate;
-
 @Log4j2
 @Controller
 @RequestMapping("/todo/modify")
 public class TodoModifyController {
 
-    @Autowired
+
     private TodoService todoService;
+
+    public TodoModifyController(TodoService todoService) {
+        this.todoService = todoService;
+    }
 
     @GetMapping
     public String getModifyForm(
             Model model,
-            @RequestParam("tno") int tno){
+            @RequestParam("tno") int tno) {
 
         model.addAttribute("todo", todoService.getTodo(tno));
 
@@ -39,7 +40,7 @@ public class TodoModifyController {
 //            String finished
             TodoDTO todoDTO
 
-    ){
+    ) {
 
 //       TodoDTO todoDTO = new TodoDTO(tno, todo, LocalDate.parse(dueDate), finished == null ? false : true);
         log.info(todoDTO);

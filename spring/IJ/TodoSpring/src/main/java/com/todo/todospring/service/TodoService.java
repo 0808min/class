@@ -5,7 +5,6 @@ import com.todo.todospring.domain.TodoDTO;
 import com.todo.todospring.util.ConnectionProvider;
 import lombok.Cleanup;
 import lombok.extern.log4j.Log4j2;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.sql.Connection;
@@ -15,8 +14,12 @@ import java.util.List;
 @Log4j2
 @Service
 public class TodoService {
-    @Autowired
+
     private TodoDao dao;
+
+    public TodoService(TodoDao dao) {
+        this.dao = dao;
+    }
 
 
     public List<TodoDTO> getTodoList() {
