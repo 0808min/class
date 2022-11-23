@@ -25,7 +25,7 @@ public class LoginController {
     @GetMapping
     public String loginForm() {
 
-        return "loginForm";
+        return "member/loginForm";
     }
 
     @PostMapping
