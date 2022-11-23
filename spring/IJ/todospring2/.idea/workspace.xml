@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="329c54de-b046-4f87-9779-20d6015da1c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../TodoFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoFinal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/member/regForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/modify.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/read.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/domain/LoginInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoInsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoInsertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/formatter/CheckBoxFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/formatter/CheckBoxFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/util/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/util/ConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/controller/TodoInsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/controller/TodoInsertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/dao/MemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/dao/MemberDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/dao/MemberDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/service/MemberRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/service/MemberRegService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/util/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoTest/src/main/java/com/todo/todofinal/util/ConnectionProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +182,7 @@
       <workItem from="1669095148790" duration="215000" />
       <workItem from="1669095899891" duration="1320000" />
       <workItem from="1669098479162" duration="616000" />
+      <workItem from="1669176406356" duration="80000" />
     </task>
     <servers />
   </component>

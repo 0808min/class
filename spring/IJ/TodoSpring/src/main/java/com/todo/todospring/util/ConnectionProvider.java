@@ -16,8 +16,8 @@ public class ConnectionProvider {
         HikariConfig config = new HikariConfig();
         config.setDriverClassName("com.mysql.cj.jdbc.Driver");
         config.setJdbcUrl("jdbc:mysql://localhost:3306/project");
-        config.setUsername("scott");
-        config.setPassword("tiger");
+        config.setUsername("root");
+        config.setPassword("admin");
         // 2022.11.14 추가설정
         config.setConnectionTimeout(30000); // client app에서 connection 을 받기까지 기다리는 최대 시간 설정
         config.setMaximumPoolSize(20);      // pool 이 가지는 최대 connection 수 설정 : 기본값은 10

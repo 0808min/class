@@ -1,6 +1,7 @@
 package com.todo.todospring.dao;
 
 
+import com.todo.todospring.domain.Member;
 import com.todo.todospring.domain.TodoDTO;
 import lombok.Cleanup;
 import org.springframework.stereotype.Repository;
@@ -111,4 +112,6 @@ public class TodoDaoImpl implements TodoDao {
 
         return result;
     }
+
+
 }

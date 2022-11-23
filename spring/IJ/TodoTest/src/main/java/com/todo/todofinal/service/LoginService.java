@@ -1,9 +1,8 @@
-package com.todo.todospring.service;
+package com.todo.todofinal.service;
 
-import com.todo.todospring.dao.MemberDao;
-import com.todo.todospring.dao.TodoDao;
-import com.todo.todospring.domain.Member;
-import com.todo.todospring.util.ConnectionProvider;
+import com.todo.todofinal.dao.MemberDao;
+import com.todo.todofinal.domain.Member;
+import com.todo.todofinal.util.ConnectionProvider;
 import lombok.Cleanup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

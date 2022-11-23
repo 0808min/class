@@ -17,6 +17,7 @@ public class CheckBoxFormatter implements Formatter<Boolean> {
 
     @Override
     public String print(Boolean object, Locale locale) {
+
         return object.toString();
     }
 }

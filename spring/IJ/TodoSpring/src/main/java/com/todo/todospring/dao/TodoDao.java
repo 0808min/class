@@ -1,6 +1,7 @@
 package com.todo.todospring.dao;
 
 
+import com.todo.todospring.domain.Member;
 import com.todo.todospring.domain.TodoDTO;
 
 import java.sql.Connection;
@@ -23,6 +24,7 @@ public interface TodoDao {
     
     // 할일 삭제
     int deleteTodo(Connection conn, long dto) throws SQLException;
+
 
 
 }

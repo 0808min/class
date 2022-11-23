@@ -6,6 +6,7 @@ import com.todo.todofinal.domain.MemberRegRequset;
 import com.todo.todofinal.util.ConnectionProvider;
 import lombok.Cleanup;
 import lombok.extern.log4j.Log4j2;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
@@ -17,6 +18,7 @@ import java.sql.Connection;
 @Service
 public class MemberRegService {
 
+    @Autowired
     private MemberDao memberDao;
 
     // 사용자 요청 데이터를 받고, 파일 업로드 처리, dao에 insert 요청
@@ -43,7 +45,7 @@ public class MemberRegService {
             try {
                 regRequset.getUphoto().transferTo(new File(dirRealPath, newFileName));
             } catch (IOException e) {
-                throw new RuntimeException(e);
+                e.printStackTrace();
             }
 
 
@@ -51,13 +53,13 @@ public class MemberRegService {
 
         Member member = regRequset.toMember();
 
-        if(newFileName != null){
+        if (newFileName != null) {
             member.setUphoto(newFileName);
         }
 
         log.info(member);
 
-       @Cleanup Connection conn = ConnectionProvider.getInstance().getConnection();
+        Connection conn = ConnectionProvider.getInstance().getConnection();
 
         return memberDao.insertMember(conn, member);
 
