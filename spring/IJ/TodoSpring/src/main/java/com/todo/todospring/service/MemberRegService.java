@@ -33,9 +33,9 @@ public class MemberRegService {
                 && !regRequest.getUphoto().isEmpty()
                 && regRequest.getUphoto().getSize() > 0) {
 
-            // uri 정의 : 저장할 폴더
+            // 저장할 폴더
             String dirURI = "/uploadfile/member";
-            // 시스템의 절대 경로
+            // 절대 경로
             String dirRealpath = request.getSession().getServletContext().getRealPath(dirURI);
             log.info(dirRealpath);
 
@@ -60,7 +60,6 @@ public class MemberRegService {
         log.info(member);
 
         Connection conn = ConnectionProvider.getInstance().getConnection();
-
         return memberDao.insertMember(conn, member);
     }
 
