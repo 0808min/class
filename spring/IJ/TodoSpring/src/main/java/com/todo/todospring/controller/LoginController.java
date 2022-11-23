@@ -24,6 +24,7 @@ public class LoginController {
 
     @GetMapping
     public String loginForm() {
+
         return "loginForm";
     }
 

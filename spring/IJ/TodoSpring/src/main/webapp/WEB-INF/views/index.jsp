@@ -31,7 +31,7 @@
     </c:if>
 
     <c:if test="${loginInfo ne null}">
-    <li> ${loginInfo.uid} ( ${loginInfo.uname} )  <img src="/uploadfile/member/${loginInfo.uphoto}"> </li>
+    <li> ${loginInfo.uid} ( ${loginInfo.uname} )  <img src="/uploadfile/member${loginInfo.uphoto}"> </li>
     <li><a href="/logout">로그아웃</a></li>
     </c:if>
 
