@@ -5,32 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22fca54-997e-44f5-906e-4968d70a7d4b" name="Changes" comment="MVC">
-      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/Interceptor/AuthCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/src/main/java/com/example/demo111/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo111/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todospring2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todospring2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todospring2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todospring2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/controller/DateConverterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/domain/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/exception/CommonExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/formatter/LocalDateFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/date.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dateForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/formatter/CheckBoxFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/formatter/LocalDateFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/domain/MemberRegRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/domain/MemberRegRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/controller/sampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstcoding/mvc/springmvc/controller/sampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/mypage1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/mypage1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/controller/MemberRegController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/controller/TodoInsertController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/controller/TodoListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/controller/TodoModifyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/controller/TodoReadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/controller/TodoRemoveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/dao/MemberDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/dao/MemberDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/dao/TodoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/dao/TodoDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/dao/TodoDaoOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/domain/MemberRegRequset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/domain/OldTodoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/domain/TodoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/service/MemberRegService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/service/TodoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/service/TodoServiceOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/java/com/todo/todofinal/util/ConnectionProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/member/regForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/modify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoFinal/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoInsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoInsertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoModifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/controller/TodoModifyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/views/todo/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +91,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -79,28 +117,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/SpringMVC&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b1876d470a918723f0812953710abbdf&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/TodoTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "b1876d470a918723f0812953710abbdf"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\SpringMVC\src\main\webapp\WEB-INF\views\login" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\SpringMVC\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\SpringMVC\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.firstcoding.mvc.springmvc.controller" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 -Dconsole.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -202,6 +244,8 @@
       <workItem from="1669076181849" duration="606000" />
       <workItem from="1669076796400" duration="6406000" />
       <workItem from="1669092397636" duration="1265000" />
+      <workItem from="1669162732860" duration="1180000" />
+      <workItem from="1669163926697" duration="6851000" />
     </task>
     <task id="LOCAL-00001" summary="MVC">
       <created>1668658821128</created>

@@ -14,5 +14,8 @@
 
   <h1>My Page 1</h1>
 
+    <h1>type : ${type}</h1>
+    <h1>type : ${msg}</h1>
+
 </body>
 </html>

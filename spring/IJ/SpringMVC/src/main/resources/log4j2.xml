@@ -6,6 +6,14 @@
         </Console>
     </Appenders>
     <Loggers>
+
+        <logger name="org.springframework" level="debug" additivity="false">
+            <appender-ref ref="console"/>
+        </logger>
+        <logger name="com.todo.todospring" level="INFO" additivity="false">
+            <appender-ref ref="console"/>
+        </logger>
+
         <Root level="info">
             <AppenderRef ref="Console"/>
         </Root>

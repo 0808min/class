@@ -36,4 +36,16 @@
         </mvc:interceptor>
     </mvc:interceptors>
 
+    <bean id ="conversionService"
+          class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatters">
+            <set>
+                <bean class="com.todo.todospring.formatter.LocalDateFormatter"/>
+                <bean class="com.todo.todospring.formatter.CheckBoxFormatter"/>
+            </set>
+        </property>
+    </bean>
+
+    <mvc:annotation-driven conversion-service="conversionService"/>
+
 </beans>

@@ -33,13 +33,15 @@ public class TodoModifyController {
 
     @PostMapping
     public String modify(
-            @RequestParam("tno") int tno,
-            @RequestParam("todo") String todo,
-            @RequestParam("dueDate") String dueDate,
-            String finished
+//            @RequestParam("tno") int tno,
+//            @RequestParam("todo") String todo,
+//            @RequestParam("dueDate") String dueDate,
+//            String finished
+            TodoDTO todoDTO
+
     ){
 
-        TodoDTO todoDTO = new TodoDTO(tno, todo, LocalDate.parse(dueDate), finished == null ? false : true);
+//       TodoDTO todoDTO = new TodoDTO(tno, todo, LocalDate.parse(dueDate), finished == null ? false : true);
         log.info(todoDTO);
 
         todoService.modify(todoDTO);
