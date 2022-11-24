@@ -10,6 +10,8 @@ public interface EmpMapper {
 
     List<EmpDTO> selectAll();
 
+    EmpDTO selectByEmp(int empno);
+
     int insertEmp(EmpDTO empDTO);
 
     int updateEmp(EmpDTO deptDTO);

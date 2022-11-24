@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22fca54-997e-44f5-906e-4968d70a7d4b" name="Changes" comment="MVC">
-      <change beforePath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/controller/EmpEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/controller/EmpEditController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/mapper/EmpMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/views/emp/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/views/emp/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpReadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpReadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

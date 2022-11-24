@@ -12,7 +12,7 @@ public class EmpReadService {
     private EmpMapper empMapper;
 
     public EmpDTO getEmp(int empno) {
-
+        return empMapper.selectByEmp(empno);
 
     }
 
