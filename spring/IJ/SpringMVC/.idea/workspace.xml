@@ -5,57 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22fca54-997e-44f5-906e-4968d70a7d4b" name="Changes" comment="MVC">
-      <change afterPath="$PROJECT_DIR$/../Dept/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptDeleteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptEditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptRegController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/domain/DeptDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/TimeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptDeleteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptEditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptReadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptRegService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/TimeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/views/dept/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/views/dept/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/views/dept/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/test/java/ConnectionTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Emp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/build.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/aoo/emp/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/controller/EmpDeleteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/controller/EmpEditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/controller/EmpListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/controller/EmpRegContorller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/domain/EmpDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/mapper/TimeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpDeleteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpEditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpRegService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/resources/mappers/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/views/emp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/views/emp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/views/emp/register.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Emp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp/src/test/java/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/DeptMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +95,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/TodoTest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/Dept&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -236,7 +222,9 @@
       <workItem from="1669182262785" duration="439000" />
       <workItem from="1669191358432" duration="2506000" />
       <workItem from="1669254097508" duration="17000" />
-      <workItem from="1669261925770" duration="617000" />
+      <workItem from="1669261925770" duration="840000" />
+      <workItem from="1669270967305" duration="63000" />
+      <workItem from="1669272647986" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="MVC">
       <created>1668658821128</created>
