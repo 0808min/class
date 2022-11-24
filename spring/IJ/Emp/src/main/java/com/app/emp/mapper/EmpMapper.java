@@ -12,4 +12,6 @@ public interface EmpMapper {
 
     int insertEmp(EmpDTO empDTO);
 
+    int updateEmp(EmpDTO deptDTO);
+
 }

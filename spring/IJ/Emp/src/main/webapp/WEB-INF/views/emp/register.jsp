@@ -34,7 +34,7 @@
     </tr>
     <tr>
         <td>입사일</td>
-        <td><input type="text" name="hiredate"></td>
+        <td><input type="date" name="hiredate"></td>
     </tr>
     <tr>
         <td>급여</td>
