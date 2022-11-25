@@ -5,9 +5,13 @@ import com.app.manager.service.DeptRegService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.validation.Valid;
 
 @Log4j2
 @Controller
@@ -25,14 +29,23 @@ public class DeptRegController {
 
     @PostMapping
     public String reg(
-            DeptDTO deptDTO
+           @Valid DeptDTO deptDTO,
+           BindingResult bindingResult
     ) {
 
         log.info("reg Post...");
         log.info(deptDTO);
 
-        deptRegService.insertDept(deptDTO);
+       if(bindingResult.hasErrors()) {
+           log.info(bindingResult.getAllErrors());
+           for (ObjectError objectError : bindingResult.getAllErrors()) {
+               log.info(objectError.getCodes()[1] + " : " + objectError.getDefaultMessage());
+           }
 
+       }
+
+        deptRegService.insertDept(deptDTO);
+//        deptRegService.insertDepts(deptDTO);
         return "redirect:/dept/list";
     }
 

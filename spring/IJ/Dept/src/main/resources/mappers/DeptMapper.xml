@@ -8,6 +8,53 @@
         select * from dept
     </select>
 
+    <select id="selectByOption" parameterType="com.app.manager.domain.DeptSearchOption"
+    resultType="com.app.manager.domain.DeptDTO">
+
+        select * from dept
+
+        <where>
+            <if test="searchType != null and keyword != null">
+                <if test="searchType == 'dname'">
+<!--                    dname like concat('%', #{keyword}, '%')-->
+                    <include refid="searchDname"/>
+                </if>
+                <if test="searchType == 'loc'">
+                    <include refid="searchLoc"/>
+<!--                    loc like concat('%', #{keyword}, '%')-->
+                </if>
+            </if>
+        </where>
+
+    </select>
+
+    <sql id="searchDname">
+        dname like concat('%', #{keyword}, '%')
+    </sql>
+
+    <sql id="searchLoc">
+        loc like concat('%', #{keyword}, '%')
+    </sql>
+
+    <select id="selectByDeptnos"
+            parameterType="list"
+            resultType="com.app.manager.domain.DeptDTO">
+
+        select *
+        from dept
+
+        <where>
+            <if test="list != null and list.size != 0">
+                deptno IN
+                <foreach collection="list"
+                         item="item" index="index" separator="," open="(" close=")">
+                    #{item}
+                </foreach>
+            </if>
+        </where>
+
+    </select>
+
     <select id="selectByDeptno" resultType="com.app.manager.domain.DeptDTO">
         select * from dept where deptno=#{deptno}
     </select>

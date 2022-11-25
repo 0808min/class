@@ -5,9 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22fca54-997e-44f5-906e-4968d70a7d4b" name="Changes" comment="MVC">
-      <change beforePath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/mapper/EmpMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpReadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpReadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/domain/DeptSearchOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/DeptMapper2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptRegController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/domain/DeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/domain/DeptDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptRegService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/views/dept/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/views/dept/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dept/src/test/java/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/test/java/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Emp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpDeleteService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +236,9 @@
       <workItem from="1669254097508" duration="17000" />
       <workItem from="1669261925770" duration="840000" />
       <workItem from="1669270967305" duration="63000" />
-      <workItem from="1669272647986" duration="608000" />
+      <workItem from="1669272647986" duration="611000" />
+      <workItem from="1669280374135" duration="102000" />
+      <workItem from="1669335408864" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="MVC">
       <created>1668658821128</created>
