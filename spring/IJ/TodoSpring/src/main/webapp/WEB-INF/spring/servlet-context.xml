@@ -10,11 +10,20 @@
        http://www.springframework.org/schema/context
        https://www.springframework.org/schema/context/spring-context.xsd">
 
+    <!--
+
+    MVC 관련한 설정 관리
+
+    -->
+
     <mvc:annotation-driven/>
-    <context:component-scan base-package="com.todo.todospring"/>
+    <context:component-scan base-package="com.todo.todospring.controller"/>
+    <context:component-scan base-package="com.todo.todospring.exception"/>
 
 
     <mvc:resources mapping="/uploadfile/**" location="/uploadfile/"/>
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
