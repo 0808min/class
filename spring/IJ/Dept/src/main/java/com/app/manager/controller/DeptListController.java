@@ -23,7 +23,7 @@ public class DeptListController {
         log.info("dept list ...");
         model.addAttribute("deptlist", deptlistService.getSearchList(deptSearchOption));
 
-        return "dept/lists";
+        return "dept/list";
     }
 
 }

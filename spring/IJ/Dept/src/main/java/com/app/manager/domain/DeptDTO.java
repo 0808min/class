@@ -10,6 +10,7 @@ import javax.validation.constraints.*;
 @Setter
 @Getter
 @ToString
+@Builder
 public class DeptDTO {
 
     @Min(value = 1)
