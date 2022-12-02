@@ -5,13 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2f4edc-0259-4e87-bdef-4d33c30200e2" name="Changes" comment="mini">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/MemberDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_alarm_board_update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_alarm_good_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_alarm_good_delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_alarm_notice_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_alarm_notice_delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_book_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_book_delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_book_overdue.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_book_update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_member_black_show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_member_hope.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_member_show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board_unified_search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board_write.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book_unified_search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/good_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/good_unified_search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hit_book_unified_search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/library_introduce.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member_change_password.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member_forgotPwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member_hope.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member_index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member_login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member_my_page.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member_register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new_book_unified_search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice_unified_search.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +107,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager1/src/main/java/com/mini/librarymanager",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager1/src/main/webapp/WEB-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,18 +117,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\java\com\mini\librarymanager" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\java\com\mini\librarymanager\controller\board" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\java\com\mini\librarymanager\exception" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\member" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\member" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\board" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\admin" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\book" />
     </key>
   </component>
   <component name="RunManager">
@@ -203,7 +233,7 @@
       <workItem from="1669942664512" duration="548000" />
       <workItem from="1669943252950" duration="9528000" />
       <workItem from="1669953878824" duration="6662000" />
-      <workItem from="1669960911788" duration="6450000" />
+      <workItem from="1669960911788" duration="7710000" />
     </task>
     <task id="LOCAL-00001" summary="mini">
       <created>1669949026162</created>
@@ -240,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669958457954</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mini">
+      <created>1669968960176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669968960176</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
