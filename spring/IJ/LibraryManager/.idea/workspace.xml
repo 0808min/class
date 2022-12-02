@@ -5,29 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2f4edc-0259-4e87-bdef-4d33c30200e2" name="Changes" comment="mini">
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/GoodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/DAO/BoardDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/DAO/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/DAO/CommentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/DAO/MemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryManager1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/service/BoardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/service/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/webapp/WEB-INF/views/admin/Good/delete.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/webapp/WEB-INF/views/admin/Good/update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/dao/MemberDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/dao/MemberDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoSpring/src/main/java/com/todo/todospring/service/MemberRegService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/GoodService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/NoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/BookMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/BoardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/BookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +215,7 @@
       <workItem from="1669941276052" duration="322000" />
       <workItem from="1669941606659" duration="13000" />
       <workItem from="1669941628658" duration="827000" />
-      <workItem from="1669942469286" duration="10841000" />
+      <workItem from="1669942469286" duration="13140000" />
     </task>
     <task id="LOCAL-00001" summary="mini">
       <created>1669798373787</created>

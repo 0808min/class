@@ -2,13 +2,12 @@ package com.mini.librarymanager.DAO;
 
 import com.mini.librarymanager.domain.BoardDTO;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
 import java.util.List;
 
 
-@Component
+
 public class BoardDAO {
 	private BoardDTO boardDTO;
 	private JdbcTemplate jdbcTemplate;
@@ -20,18 +19,21 @@ public class BoardDAO {
 	public BoardDTO selectByFBID(int inputFBID) {
 		try {
 			return jdbcTemplate.queryForObject("SELECT * FROM BOARD WHERE FBID=?;",
-					(rs, rowNum) -> new BoardDTO(rs.getInt("FBID"), rs.getString("EMAIL"), rs.getString("TITLE"),
-							rs.getString("CONTENT"), rs.getDate("DATE"), rs.getString("PUBLIC")),
-					inputFBID);
+					(rs, rowNum) -> new BoardDTO(rs.getInt("FBID"),
+							rs.getString("EMAIL"), rs.getString("TITLE"),
+							rs.getString("CONTENT"), rs.getDate("DATE"),
+							rs.getString("PUBLIC")), inputFBID);
 		} catch (Exception ex) {
 			return null;
 		}
 	}
 
 	public List<BoardDTO> showAll() {
-		List<BoardDTO> result = jdbcTemplate.query("SELECT * FROM BOARD;", (rs, rowNum) -> {
-			BoardDTO boardDTO = new BoardDTO(rs.getInt("FBID"), rs.getString("EMAIL"), rs.getString("TITLE"),
-					rs.getString("CONTENT"), rs.getDate("DATE"), rs.getString("PUBLIC"));
+		List<BoardDTO> result = jdbcTemplate.query("SELECT * FROM PROJECT_BOARD;", (rs, rowNum) -> {
+			BoardDTO boardDTO = new BoardDTO(rs.getInt("FBID"),
+					rs.getString("EMAIL"), rs.getString("TITLE"),
+					rs.getString("CONTENT"), rs.getDate("DATE"),
+					rs.getString("PUBLIC"));
 			return boardDTO;
 		});
 		return result;

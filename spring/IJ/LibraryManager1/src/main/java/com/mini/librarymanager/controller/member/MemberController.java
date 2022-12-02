@@ -14,13 +14,9 @@ public class MemberController {
     public String member_logout(final HttpSession httpSession) {
 
         if(httpSession.getAttribute("loginMemberName")!= null) httpSession.removeAttribute("loginMemberName");
-
         httpSession.invalidate();
 
         return "rediect:/index";
-
-
-
         }
 
     }

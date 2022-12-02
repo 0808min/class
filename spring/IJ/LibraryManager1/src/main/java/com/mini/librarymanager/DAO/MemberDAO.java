@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import javax.sql.DataSource;
 import java.util.List;
 
-@Component
+
 public class MemberDAO {
 
 	private MemberDTO memberDTO;

@@ -66,7 +66,7 @@ public class MemberService {
 
 		// 보내는 사람 EMail, 제목, 내용
 		String fromEmail = "admin@admin"; // "보내는 사람 이메일주소(받는 사람 이메일에 표시됨)";
-		String fromName = "MinGW"; // "프로젝트이름 또는 보내는 사람 이름";
+		String fromName = "Min"; // "프로젝트이름 또는 보내는 사람 이름";
 		String subject = "";
 		String msg = "";
 

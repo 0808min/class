@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="329c54de-b046-4f87-9779-20d6015da1c8" name="Changes" comment="" />
+    <list default="true" id="329c54de-b046-4f87-9779-20d6015da1c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/GoodService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/Service/NoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/BookMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/BoardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/BookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,6 +188,7 @@
       <workItem from="1669098479162" duration="616000" />
       <workItem from="1669176406356" duration="80000" />
       <workItem from="1669190205745" duration="36000" />
+      <workItem from="1669956010914" duration="1346000" />
     </task>
     <servers />
   </component>

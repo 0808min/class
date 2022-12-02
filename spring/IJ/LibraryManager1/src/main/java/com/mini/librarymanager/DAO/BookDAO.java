@@ -8,7 +8,7 @@ import javax.sql.DataSource;
 import java.util.List;
 
 
-@Component
+
 public class BookDAO {
 	private BookDTO bookDTO;
 	private JdbcTemplate jdbcTemplate;
