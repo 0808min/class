@@ -5,55 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22fca54-997e-44f5-906e-4968d70a7d4b" name="Changes" comment="MVC">
-      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootstrapSample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/domain/DeptSearchOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/DeptMapper2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/controller/DeptRegController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/domain/DeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/domain/DeptDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/mapper/DeptMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptRegService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/java/com/app/manager/service/DeptRegService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/resources/mappers/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/views/dept/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/main/webapp/WEB-INF/views/dept/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dept/src/test/java/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dept/src/test/java/ConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Emp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Emp/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Emp/src/main/java/com/app/emp/service/EmpDeleteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/controller/book/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/domain/BoardDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/domain/BookDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/domain/CommentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/domain/MemberDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/mapper/BookMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,19 +68,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/Dept&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b1876d470a918723f0812953710abbdf&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "b1876d470a918723f0812953710abbdf"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\SpringMVC\src\main\webapp\WEB-INF\views\login" />
@@ -239,6 +205,7 @@
       <workItem from="1669272647986" duration="611000" />
       <workItem from="1669280374135" duration="102000" />
       <workItem from="1669335408864" duration="1416000" />
+      <workItem from="1669941619135" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="MVC">
       <created>1668658821128</created>
