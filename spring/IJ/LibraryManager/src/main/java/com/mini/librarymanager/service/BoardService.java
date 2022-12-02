@@ -1,22 +1,18 @@
 package com.mini.librarymanager.Service;
 
+import com.mini.librarymanager.mapper.BoardMapper;
 import org.springframework.beans.factory.annotation.*;
 import java.util.*;
 import org.springframework.stereotype.*;
 
-import com.mini.librarymanager.DAO.*;
+
 import com.mini.librarymanager.DTO.*;
 
 @Service
 public class BoardService {
-	private BoardDAO boardDAO;
-	private CommentDAO commentDAO;
 
-	@Autowired
-	public BoardService(BoardDAO _boardDAO, CommentDAO _commentDAO) {
-		this.boardDAO = _boardDAO;
-		this.commentDAO = _commentDAO;
-	}
+	@Autowired(required = false)
+	private BoardMapper boardMapper;
 
 	public void updatePublic(BoardDTO _boardDTO, String inputBoardPublic) {
 		// 게시글 공개 여부 설정

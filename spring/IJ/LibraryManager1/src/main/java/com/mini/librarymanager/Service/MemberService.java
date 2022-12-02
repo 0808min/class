@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 public class MemberService {
 	private MemberDAO memberDAO;
 
+
+
 	@Autowired
 	public MemberService(MemberDAO _memberDAO) {
 		this.memberDAO = _memberDAO;

@@ -3,7 +3,6 @@ package com.mini.librarymanager.DAO;
 
 import com.mini.librarymanager.domain.CommentDTO;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
 import java.util.List;
@@ -40,8 +39,8 @@ public class CommentDAO {
 			} else {
 				this.commentDTO = _commentDTO;
 			}
-		} catch (Exception ex) {
-			ex.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 			return 0;
 		}
 

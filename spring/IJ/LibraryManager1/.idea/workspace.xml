@@ -5,24 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2f4edc-0259-4e87-bdef-4d33c30200e2" name="Changes" comment="mini">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/book/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/domain/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/domain/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/domain/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/domain/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/mapper/BoardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/java/com/mini/librarymana/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/resources/mappers/BoardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/resources/mappers/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/resources/mappers/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/resources/mappers/MemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryMana/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/domain/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/domain/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/domain/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/domain/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/WEB-INF/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/WEB-INF/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/WEB-INF/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/admin/AdminBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/admin/AdminBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/admin/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminGoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/admin/AdminGoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/admin/AdminMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/admin/AdminNoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/Good/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/Notice/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Board/Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Board/Update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryMana/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Book/Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Book/Update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Good/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Good/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Member/Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Member/Hope.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/Member/Show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/admin/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/WEB-INF/WEB-INF/views/book/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/board/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/board/write.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/book/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryMana/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/myPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/register.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/BookDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/Service/GoodService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/Service/NoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/Service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/Service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/AdminMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/BookMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/MemberMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/AdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BoardMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Board/Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Board/Update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Book/Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Book/Update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Member/Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Member/Hope.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Member/Show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Member/blackShow.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryMana/src/main/webapp/WEB-INF/views/book/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/myPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todospring2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +170,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Class" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -89,7 +204,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager1/src/main/java/com/mini/librarymanager/controller/board",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager1/src/main/java/com/mini/librarymanager",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,17 +214,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\java\com\mini\librarymanager\controller\board" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\java\com\mini\librarymanager" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\java\com\mini\librarymanager\controller\board" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\java\com\mini\librarymanager\exception" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\member" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\member" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\board" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\admin" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp\WEB-INF\book" />
     </key>
   </component>
   <component name="RunManager">
@@ -213,7 +329,8 @@
       <workItem from="1669777634365" duration="19820000" />
       <workItem from="1669942664512" duration="548000" />
       <workItem from="1669943252950" duration="9528000" />
-      <workItem from="1669953878824" duration="3811000" />
+      <workItem from="1669953878824" duration="6662000" />
+      <workItem from="1669960911788" duration="5347000" />
     </task>
     <task id="LOCAL-00001" summary="mini">
       <created>1669949026162</created>
@@ -243,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669953993432</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mini">
+      <created>1669958457954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669958457954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
