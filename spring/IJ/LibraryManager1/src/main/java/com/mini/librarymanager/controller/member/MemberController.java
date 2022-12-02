@@ -1,14 +1,28 @@
 package com.mini.librarymanager.controller.member;
 
-import com.mini.librarymanager.service.MemberService;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+import javax.servlet.http.HttpSession;
 
 @Controller
 public class MemberController {
 
+    @GetMapping("/logout")
+    public String member_logout(final HttpSession httpSession) {
+
+        if(httpSession.getAttribute("loginMemberName")!= null) httpSession.removeAttribute("loginMemberName");
+
+        httpSession.invalidate();
+
+        return "rediect:/index";
 
 
-}
+
+        }
+
+    }
+
+

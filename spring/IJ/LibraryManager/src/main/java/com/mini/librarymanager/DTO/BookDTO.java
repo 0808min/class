@@ -1,6 +1,5 @@
 package com.mini.librarymanager.DTO;
 
-import java.io.*;
 import java.sql.*;
 
 public class BookDTO {
@@ -115,7 +114,7 @@ public class BookDTO {
 	public void setBookHit(int bookHit) {
 		this.bookHit = bookHit;
 	}
-	
+
 	public Date getBookDate() {
 		return bookDate;
 	}

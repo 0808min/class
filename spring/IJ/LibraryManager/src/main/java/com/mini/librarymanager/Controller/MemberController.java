@@ -3,10 +3,13 @@ package com.mini.librarymanager.Controller;
 import javax.servlet.http.*;
 import java.io.*;
 import java.sql.Date;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import com.mini.librarymanager.Exception.AlreadyExistingException;
+import com.mini.librarymanager.Exception.NotAvailableException;
+import com.mini.librarymanager.Exception.NotExistingException;
+import com.mini.librarymanager.Exception.NotMatchingException;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.*;
 import org.springframework.ui.Model;
@@ -24,7 +27,12 @@ public class MemberController {
 	MemberService memberService;
 	@Autowired
 	MemberDAO memberDAO;
-
+	@Autowired
+	HopeDAO hopeDAO;
+	@Autowired
+	CheckOutDAO checkOutDAO;
+	@Autowired
+	PhraseDAO phraseDAO;
 	@Autowired
 	BookDAO bookDAO;
 

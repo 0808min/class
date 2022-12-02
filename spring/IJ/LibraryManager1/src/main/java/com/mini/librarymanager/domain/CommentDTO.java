@@ -11,9 +11,9 @@ import lombok.*;
 @Builder
 public class CommentDTO {
 
-    private int cid;
-    private int fbid;
-    private String email;
-    private String content;
+    private int commentID;
+    private int commentBoardID;
+    private String commentName;
+    private String commentContent;
 
 }

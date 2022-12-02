@@ -1,5 +1,6 @@
 package com.mini.librarymanager.Controller;
 
+import com.mini.librarymanager.Exception.NotAvailableException;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.*;
 import org.springframework.ui.*;

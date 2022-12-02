@@ -1,15 +1,14 @@
 package com.mini.librarymanager.DAO;
 
-import com.libraryManage.DTO.*;
+import com.mini.librarymanager.DTO.*;
 
 import com.mini.librarymanager.DTO.BookDTO;
 import org.springframework.stereotype.*;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.*;
 
 import javax.sql.*;
 import java.util.*;
-import java.util.Base64.*;
+
 
 @Component
 public class BookDAO {

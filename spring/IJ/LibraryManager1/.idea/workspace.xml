@@ -5,139 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2f4edc-0259-4e87-bdef-4d33c30200e2" name="Changes" comment="mini">
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/GoodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/MemberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/BoardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/CheckOutDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/book/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/BoardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/BoardMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/mapper/MemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/BoardMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/MemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/7.4/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/workspace-id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.gradle/workspace-id.txt.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/assembler/Assembler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/dao/Dao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/dao/DaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/dao/MemberDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/domain/Member.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/domain/RegisterRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/exception/AlreadyExistingMemberException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/exception/IdPasswordNotMatchingException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/exception/MemberNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/main/MainForAssembler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/main/MainForSpring.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/main/MainForSpring2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/main/MainForSpring3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/service/ChangePasswordService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/service/MemberRegisterService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/classes/java/main/org/example/di/service/MemberRegisterService2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/resources/main/appCtx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/resources/main/appCtx1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/resources/main/appCtx2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/resources/main/appCtx3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/resources/main/appCtx4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/resources/main/config1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/assembler/Assembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/dao/DaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/dao/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/domain/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/exception/AlreadyExistingMemberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/exception/IdPasswordNotMatchingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/exception/MemberNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/main/MainForAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/main/MainForSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/main/MainForSpring2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/main/MainForSpring3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/service/ChangePasswordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/service/MemberRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/java/org/example/di/service/MemberRegisterService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/resources/appCtx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/resources/appCtx1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/resources/appCtx2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/resources/appCtx3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/resources/appCtx4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemberManager1/src/main/resources/config1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminGoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/AdminNoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/CheckOutDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/CommentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/GoodDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/HopeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/NoticeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/PhraseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/GoodDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/HopeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/NoticeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/PhraseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/AlreadyExistingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/BlackListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/ConfirmNotMatchingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/FillOutInformationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/NotAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/NotExistingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/NotLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Exception/NotMatchingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/GoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/book/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/book/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/book/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/myPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/views/member/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/myPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/Controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DAO/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/java/com/mini/librarymanager/DTO/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/resources/mappers/BoardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/resources/mappers/BookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/board/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/controller/member/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/BoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/CommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/domain/MemberDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,16 +127,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager1",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager1/src/main/webapp/WEB-INF/views",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "2134ab82d67d2b357791eefafe01eb69"
+    "spring.configuration.checksum": "0c33bd2f1736986a9827dbe4f4294c2a"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager1\src\main\webapp\WEB-INF\views\member" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\cheoho-hi\Documents\GitHub\class\spring\IJ\LibraryManager\src\main\resources" />
@@ -324,6 +250,7 @@
       <updated>1669777633154</updated>
       <workItem from="1669777634365" duration="19820000" />
       <workItem from="1669942664512" duration="548000" />
+      <workItem from="1669943252950" duration="5021000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@
 
     <mvc:annotation-driven/>
     <context:component-scan base-package="com.mini.librarymanager.controller"/>
-    <context:component-scan base-package="com.mini.librarymanager.exception"/>
+    <context:component-scan base-package="com.mini.librarymanager.Exception"/>
 
 
     <mvc:resources mapping="/uploadfile/**" location="/uploadfile/"/>

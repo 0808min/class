@@ -5,10 +5,8 @@ import org.springframework.jdbc.core.*;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
-
 import javax.sql.*;
 
-import com.libraryManage.DTO.*;
 
 @Component
 public class BoardDAO {
