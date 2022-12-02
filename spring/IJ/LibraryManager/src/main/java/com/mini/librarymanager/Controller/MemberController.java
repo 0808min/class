@@ -116,8 +116,8 @@ public class MemberController {
 				session.setAttribute("loginMemberDTO", memberDTO);
 				response.sendRedirect("/member_index");
 			}
-		} catch (Exception ex) {
-			ex.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 
@@ -174,7 +174,7 @@ public class MemberController {
 	}
 
 	// 마이 페이지
-	@RequestMapping(value = "/my_page", method = RequestMethod.GET)
+	@RequestMapping(value = "/member/myPage", method = RequestMethod.GET)
 	public String member_my_page(Model model, HttpSession session) {
 		MemberDTO memberDTO = (MemberDTO) session.getAttribute("loginMemberDTO");
 
@@ -184,7 +184,7 @@ public class MemberController {
 		model.addAttribute("checkOutList", checkOutList);
 		model.addAttribute("phraseList", phraseList);
 
-		return "member_my_page";
+		return "member/myPage";
 	}
 
 	@GetMapping("/logout")

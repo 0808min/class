@@ -9,16 +9,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/board/list")
+
 public class BoardController {
 
-//    @Autowired(required = false)
-//    private BoardService boardService;
+    @Autowired(required = false)
+    private BoardService boardService;
 
-    @GetMapping("list")
-    public String getBoardList() {
+    @RequestMapping("/board/list")
+    public String getBoardList(Model model) {
 
-        return "/index";
+        model.addAttribute("BoardList", boardService.getBoardList());
+
+        return "board/list";
 
     }
 
