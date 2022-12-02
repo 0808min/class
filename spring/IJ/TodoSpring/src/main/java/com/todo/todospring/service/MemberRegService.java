@@ -1,10 +1,8 @@
 package com.todo.todospring.service;
 
-import com.todo.todospring.dao.MemberDao;
 import com.todo.todospring.domain.Member;
 import com.todo.todospring.domain.MemberRegRequest;
 import com.todo.todospring.mapper.MemberMapper;
-import com.todo.todospring.util.ConnectionProvider;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,7 +10,6 @@ import org.springframework.stereotype.Service;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
-import java.sql.Connection;
 
 @Service
 @Log4j2

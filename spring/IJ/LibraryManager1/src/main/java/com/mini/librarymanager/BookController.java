@@ -1,4 +1,4 @@
-package com.mini.librarymanager.controller.book;
+package com.mini.librarymanager;
 
 
 import org.springframework.stereotype.Controller;

@@ -1,10 +1,9 @@
 package com.mini.librarymanager.Service;
 
-import org.springframework.beans.factory.annotation.*;
-import org.springframework.stereotype.*;
-
 import com.mini.librarymanager.DAO.*;
-import com.mini.librarymanager.DTO.*;
+import com.mini.librarymanager.domain.MemberDTO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
 public class MemberService {

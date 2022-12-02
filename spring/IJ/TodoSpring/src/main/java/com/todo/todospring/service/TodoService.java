@@ -1,6 +1,6 @@
 package com.todo.todospring.service;
 
-import com.todo.todospring.dao.TodoDao;
+
 import com.todo.todospring.domain.TodoDTO;
 import com.todo.todospring.mapper.TodoMapper;
 import com.todo.todospring.util.ConnectionProvider;
