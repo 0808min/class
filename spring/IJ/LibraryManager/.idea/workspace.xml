@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d2f4edc-0259-4e87-bdef-4d33c30200e2" name="Changes" comment="mini">
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/mapper/MemberMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/Controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mini/librarymanager/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryManager1/src/main/java/com/mini/librarymanager/DAO/BoardDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager/src/main/webapp",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/IJ/LibraryManager",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -205,6 +199,7 @@
       <workItem from="1669941628658" duration="827000" />
       <workItem from="1669942469286" duration="15920000" />
       <workItem from="1669961141815" duration="4628000" />
+      <workItem from="1669969961990" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="mini">
       <created>1669798373787</created>
