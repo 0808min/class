@@ -75,7 +75,7 @@ public class BoardEditService {
 
             // 새로운 파일이 저장되고 이전 파일이 존재한다면 -> 이전 파일을 삭제
             String oldPhotoName = boardEditRequest.getOldphoto();
-            if (newFileName != null && oldPhotoName != null && !oldPhotoName.trim().isEmpty()){
+            if (newFileName != null && oldPhotoName != null && !oldPhotoName.isEmpty()){
                 File deleteOldPhoto = new File(saveDir, oldPhotoName);
 
                 if (deleteOldPhoto.delete()){
