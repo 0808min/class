@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- nav 영역 시작-->
+  <div th:replace="fragment/nav"></div>
+
+
+  <div class="card m-3">
+    <div class="card-header">
+      Board View
+    </div>
+    <div class="card-body">
+
+      <table class="table border-top-1" >
+        <tr>
+          <td class="col-2 text-center bg-light">제목</td>
+          <td th:text="${boardView.title}"></td>
+        </tr>
+        <tr>
+          <td class="col-2 text-center bg-light">작성자</td>
+          <td th:text="${boardView.writer.username}"></td>
+        </tr>
+        <tr>
+          <td class="col-2 text-center bg-light">내용</td>
+          <td th:text="${boardView.content}"></td>
+        </tr>
+        <tr>
+          <td class="col-2 text-center bg-light">첨부사진</td>
+          <td>
+            <th:block th:if="${boardView.photo != null}">
+            <img th:src="@{/upload/photo/{name}(name=${boardView.photo})}" width="300">
+            </th:block>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-2 text-center bg-light">작성일</td>
+          <td th:text="${boardView.regdate}"></td>
+        </tr>
+        <tr>
+          <td class="col-2 text-center bg-light">수정일</td>
+          <td th:text="${boardView.updatedate}"></td>
+        </tr>
+
+      </table>
+
+      <div class="text-end">
+        <th:block th:if="${#authentication.principal.boardMember.idx} == ${boardView.writer.idx}">
+        <a class="btn btn-warning" th:href="@{/board/edit(bno=${boardView.bno}, p=${currentPageNum})}">수정</a>
+        <a class="btn btn-danger" th:onclick="'deleteBoard('+${boardView.bno}+')'">삭제</a>
+        </th:block>
+
+        <a class="btn btn-primary" th:href="@{/board/list(p=${currentPageNum})}">리스트</a>
+      </div>
+
+
+      <!-- 댓글 영역 시작 -->
+
+      <div class="card m-2 my-2">
+        <div class="card-header">
+          댓글
+        </div>
+        <div class="card-body">
+
+          <!--댓글 작성 영역-->
+
+          <div class="p-3 border-bottom">
+            <h5 class="title my-2">댓글 작성</h5>
+            <div class="mb-3">
+              <label class="form-label">작성자</label>
+              <input type="text" class="form-control" th:value="${#authentication.principal.boardMember.username}" readonly>
+              <input type="hidden" class="form-control" id="replyer" th:value="${#authentication.principal.boardMember.idx}" >
+            </div>
+            <div class="mb-3">
+              <label class="form-label">내용</label>
+              <textarea class="form-control" rows="3" id="reply"></textarea>
+            </div>
+            <div class="mb-3">
+              <input type="submit" value="등록" id="btn_reply" class="form-control btn btn-primary">
+            </div>
+          </div>
+
+
+          <!--댓글 리스트 영역-->
+          <table class="table">
+            <tbody id="replyList">
+
+            </tbody>
+          </table>
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="replyEditModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">댓글 수정</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label class="form-label">작성자</label>
+            <input type="text" class="form-control" id="ereplyerName" readonly>
+            <input type="hidden" id="ereplyer" >
+            <input type="hidden" id="erno">
+            <input type="hidden" id="ereplydate">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">내용</label>
+            <textarea class="form-control" rows="3" id="ereply"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+
+          <button type="button" id="btn_edit" class="btn btn-primary">수정</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+
+    function deleteBoard(bno){
+
+      if(confirm("삭제하시겠습니까?")){
+          location.href = '/board/delete?bno='+bno;
+      }
+
+    }
+
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+
+  <script th:inline="javascript">
+
+    var bno = [[${boardView.bno}]]
+    var midx = [[${midx}]]
+
+  </script>
+
+  <script src="/js/reply_jquery.js"></script>
+
+
+</body>
+</html>
