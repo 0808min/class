@@ -1,7 +1,10 @@
 package com.app.board.domain;
 
+<<<<<<< HEAD
 import com.app.board.entity.Board;
 import com.app.board.entity.BoardMember;
+=======
+>>>>>>> 3aa1e3fdc5efc0706080da8a500529ce5ee28135
 import lombok.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -14,6 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class BoardWriteRequest {
 
     private String title;
+<<<<<<< HEAD
     
     // 작성자 이름 문자열 -> 작성자의 idx
     private Integer writer;
@@ -39,4 +43,19 @@ public class BoardWriteRequest {
     }
 
 
+=======
+    private String writer;
+    private String content;
+    private MultipartFile photo;
+
+
+    public BoardDTO toBoardDTO() {
+        return BoardDTO.builder()
+                .title(title)
+                .content(content)
+                .writer(writer)
+                .build();
+    }
+
+>>>>>>> 3aa1e3fdc5efc0706080da8a500529ce5ee28135
 }
