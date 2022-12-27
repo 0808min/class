@@ -76,32 +76,7 @@
 
 
 
-        class Rectangle {
-
-            constructor(width, height) {
-                this.width = width
-                this.height = height
-            }
-
-            getPrimeter() {
-                return(this.width + this.height)*2
-            }
-
-            getArea() {
-                return this.width*this.height
-            }
-        } 
-
-        class Square extends Rectangle {
-            constructor(length) {
-                super(length, length)
-            }
-        }
-
-        const square = new Square(10)
-
-        console.log('정사각형의 둘레', square.getPrimeter());
-        console.log('정사각형의 너비', square.getArea());
+      
 
  
 
