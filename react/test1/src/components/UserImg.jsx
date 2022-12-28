@@ -6,15 +6,14 @@ function UserImg(props) {
         <img className="userImg"
             src={props.user.imgUrl}
             alt={props.user.userName}
-            width="200"
+            width="200"></img>
 
-    return (
-        <img className="userImg"
-            src={props.user.imgUrl}
-            alt={props.user.userName}
-            width="200"
-
+   )
 
 }
+
+export default UserImg
+
+
 
 

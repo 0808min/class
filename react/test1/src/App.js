@@ -15,12 +15,13 @@ import MailBox from './components/MailBox';
 import UserStatus from './components/UserStatus';
 import WarningBanner from './components/WarnningBanner';
 import MainPage from './components/Mainpage';
+import NumberList from './components/NumberList';
 
 
 
 function App() {
   return (
-    <MainPage />    
+    <NumberList />    
   );
 }
 
@@ -42,33 +43,6 @@ function App() {
       </header>
     </div> */}
 
-
-
-
-function App() {
-  return (
-    <MainPage />    
-  );
-}
-
-
-
-{/* <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 1234
-        </a>
-      </header>
-    </div> */}
 
 
 export default App;
