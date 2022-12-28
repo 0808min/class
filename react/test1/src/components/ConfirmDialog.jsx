@@ -1,14 +1,6 @@
 import React from "react";
 
-<<<<<<< HEAD
 function Button(props){
-=======
-<<<<<<< HEAD
-function Button(props){
-=======
-function Button(props) {
->>>>>>> c019f3ff5bde4ea691c1d6f5d69c9e9bfe586b3a
->>>>>>> 1e9fd25b94552fca487cbbcf1a87c66d88c60563
     return (
         <button className={`bg-${props.color}`}>
             <b>
@@ -18,38 +10,13 @@ function Button(props) {
     )
 }
 
-<<<<<<< HEAD
 function ConfirmDialog(props) {
     return (
         <div>
             <p>내용을 확인하셨다면 확인 버튼을 눌러주세요.</p>
             <Button color="Green">확인</Button>
-=======
-<<<<<<< HEAD
-function ConfirmDialog(props) {
-    return (
-        <div>
-            <p>내용을 확인하셨다면 확인 버튼을 눌러주세요.</p>
-            <Button color="Green">확인</Button>
-=======
-
-function ConfirmDialog(props) {
-    return (
-        <div>
-            <p>내용을 확인하셨다면 확인 버튼을 눌러주세요</p>
-            <button color="Green">확인</button>
->>>>>>> c019f3ff5bde4ea691c1d6f5d69c9e9bfe586b3a
->>>>>>> 1e9fd25b94552fca487cbbcf1a87c66d88c60563
         </div>
     )
 }
 
-<<<<<<< HEAD
 export default ConfirmDialog;
-=======
-<<<<<<< HEAD
-export default ConfirmDialog;
-=======
-export default ConfirmDialog
->>>>>>> c019f3ff5bde4ea691c1d6f5d69c9e9bfe586b3a
->>>>>>> 1e9fd25b94552fca487cbbcf1a87c66d88c60563

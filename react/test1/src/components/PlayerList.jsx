@@ -1,25 +1,11 @@
 import React from "react";
 import Player from "./Player";
 
-<<<<<<< HEAD
 
 
 function Team(props){
 
     return (
-=======
-<<<<<<< HEAD
-
-
-function Team(props){
-
-    return (
-=======
-function Team(props) {
-
-    return(
->>>>>>> c019f3ff5bde4ea691c1d6f5d69c9e9bfe586b3a
->>>>>>> 1e9fd25b94552fca487cbbcf1a87c66d88c60563
         <div>
 
             <Player playerName='SON' playerNumber='7'></Player>
@@ -31,12 +17,4 @@ function Team(props) {
 
 }
 
-<<<<<<< HEAD
 export default Team;
-=======
-<<<<<<< HEAD
-export default Team;
-=======
-export default Team;
->>>>>>> c019f3ff5bde4ea691c1d6f5d69c9e9bfe586b3a
->>>>>>> 1e9fd25b94552fca487cbbcf1a87c66d88c60563
