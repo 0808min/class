@@ -16,13 +16,25 @@ import UserStatus from './components/UserStatus';
 import WarningBanner from './components/WarnningBanner';
 import MainPage from './components/Mainpage';
 import NumberList from './components/NumberList';
+import TeamPlayers from './components/TeamPlayers';
+import NameForm from './components/NameForm';
+import RequestForm from './components/RequestForm';
+import FruitSelect from './components/FruitSelect';
+import Reservation from './components/Reservation';
+import SignUp from './components/SignUp';
+import WelcomeMessage from './components/WelcomeMessage';
+import WelcomeDialog from './components/WelcomeDialog';
+import ProfileCard from './components/ProfileCard';
+import DarkOrWhite from './components/DarkOrWhite';
+
 
 
 
 function App() {
   return (
-    <NumberList />    
+    <DarkOrWhite />    
   );
+
 }
 
 
