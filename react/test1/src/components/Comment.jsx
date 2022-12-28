@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useReducer } from "react";
 import UserInfo from "./UserInfo";
 
-function Comment(props) {
 
-    return(
+function Comment(props){
+
+    return (
         <div className="comment">
 
             {/* 회원정보 */}
             <UserInfo user={props.user}/>
+
             {/* <div className="userInfo">
                 <img className="userImg"
-                src="{props.user.imgUrl}"
-                alt="{props.user.userName}"
+                    src="{props.user.imgUrl}"
+                    alt="{props.user.userName}"
                 />
                 <div className="userInfoName">
                     {props.user.userName}
@@ -30,6 +32,7 @@ function Comment(props) {
 
         </div>
     )
+
 }
 
 export default Comment;

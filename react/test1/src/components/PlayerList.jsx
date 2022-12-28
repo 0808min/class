@@ -1,9 +1,11 @@
 import React from "react";
 import Player from "./Player";
 
-function Team(props) {
 
-    return(
+
+function Team(props){
+
+    return (
         <div>
 
             <Player playerName='SON' playerNumber='7'></Player>

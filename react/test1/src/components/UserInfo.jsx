@@ -2,14 +2,14 @@ import React from "react";
 import UserImg from "./UserImg";
 
 function UserInfo(props) {
-    return(
+    return (
         <div className="userInfo">
             <UserImg user={props.user}/>
-        <div className="userInfoName">
-            {props.userName}
+            <div className="userInfoName">
+                {props.userName}
+            </div>
         </div>
-    </div>
     )
 }
 
-export default UserInfo
+export default UserInfo;
