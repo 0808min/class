@@ -26,13 +26,15 @@ import WelcomeMessage from './components/WelcomeMessage';
 import WelcomeDialog from './components/WelcomeDialog';
 import ProfileCard from './components/ProfileCard';
 import DarkOrWhite from './components/DarkOrWhite';
+import Container from './components/ex1/Container';
+import WordContainer from './components/ex2/WordContainer';
 
 
 
 
 function App() {
   return (
-    <DarkOrWhite />    
+    <WordContainer />    
   );
 
 }
