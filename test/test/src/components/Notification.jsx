@@ -3,19 +3,23 @@ import React from "react";
 class Notification extends React.Component{
     constructor(props) {
         super(props)
-        this.state = {}
+        this.state = {checkd : false}
     }
 
     componentDidMount() {
-        console.log('componentDidMount() call')
+        const checkdVal = this.state.checkd
+        console.log('componentDidMount() call', checkdVal)
+        this.setState({checkd : true})
     }
 
     componentDidUpdate() {
-        console.log('componentDidUpdate() call');
+        const checkdVal = this.state.checkd
+        console.log('componentDidUpdate() call', checkdVal);
     }
 
     componentWillUnmount() {
-        console.log('componentWillUnmount() call');
+        const checkdVal = this.state.checkd
+        console.log('componentWillUnmount() call', checkdVal);
     }
 
     render() {

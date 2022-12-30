@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e66ef0-08fc-4a7c-bc9e-181c795f69a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test/src/components/Notification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/test/src/components/Notification.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/react/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +69,8 @@
       <workItem from="1672113450439" duration="730000" />
       <workItem from="1672117942990" duration="646000" />
       <workItem from="1672273559217" duration="264000" />
-      <workItem from="1672283489007" duration="697000" />
+      <workItem from="1672283489007" duration="2506000" />
+      <workItem from="1672361531114" duration="21000" />
     </task>
     <servers />
   </component>
