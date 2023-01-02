@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import {Button, Checkbox, FormControlLabel, Stack, TextField} from "@mui/material";
 
-function TodoModifyComponent({id,setResult}) {
+function TodoModifyComponent({id,setResult, moveToList, moveToBack}) {
 
     const [todo, setTodo] = useState({})
 
@@ -72,8 +72,8 @@ function TodoModifyComponent({id,setResult}) {
             <Box sx={{p:1}} display={"flex"} justifyContent={"right"}>
                 <Stack spacing={{p:2}} direction="row">
                     <Button variant={"contained"} onClick={() => clickModify()}>수정</Button>
-                    <Button variant={"contained"}>취소(이전)</Button>
-                    <Button variant={"contained"}>LIST</Button>
+                    <Button variant={"contained"} onClick={() => moveToBack()}>취소(이전)</Button>
+                    <Button variant={"contained"} onClick={() => moveToList()}>LIST</Button>
                 </Stack>
             </Box>
         </>

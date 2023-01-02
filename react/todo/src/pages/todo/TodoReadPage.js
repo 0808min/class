@@ -4,6 +4,7 @@ import {Dialog, DialogTitle, Grid, Paper} from "@mui/material";
 import {useNavigate, useParams, useSearchParams} from "react-router-dom";
 import Typography from "@mui/material/Typography";
 import TodoReadComponent from "../../Components/todo/TodoReadComponent";
+import TodoModifyComponent from "../../Components/todo/TodoModifyComponent";
 
 function TodoReadPage(props) {
 
@@ -33,6 +34,15 @@ function TodoReadPage(props) {
         })
     }
 
+    const moveToBack = () => {
+        const pageNum = page || 1
+        const sizeNum = size || 10
+
+        navigate({
+            pathname: `/todo/read/${id}`, search: `?page=${pageNum}&size=${sizeNum}`
+        })
+    }
+
     const setResult = (result) => {
         setMsg(result)
     }
@@ -52,7 +62,7 @@ function TodoReadPage(props) {
         if(cmd === 'read' ) {
             return <TodoReadComponent id={id} moveToList={moveToList} setResult={setResult}></TodoReadComponent>
         } else if(cmd === 'modify') {
-            return null
+            return <TodoModifyComponent id={id} moveToList={moveToList} setResult={setResult} moveToBack={moveToBack()}/>
         }
 
         return <></>
