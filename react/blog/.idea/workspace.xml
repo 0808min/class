@@ -5,36 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6d61e3-8579-402d-93d8-504a703efe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../todo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/Components/ex/Ex1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/Components/menu/MenuComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/Components/toolbar/CustomToolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/layout/PageLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/layout/SampleLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/pages/SamplePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoListComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoModifyComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoReadComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoRegisterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/apis/todoAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/pages/AboutPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/pages/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/pages/todo/TodoListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/pages/todo/TodoReadPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/pages/todo/TodoRegisterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/src/routers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/todo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/Components/menu/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/Components/menu/MenuComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +56,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheoho-hi/Documents/GitHub/class/react/blog/src/components/list&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheoho-hi/Documents/GitHub/class/react/todo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -107,7 +95,10 @@
       <updated>1672283592514</updated>
       <workItem from="1672283593705" duration="610000" />
       <workItem from="1672361554342" duration="18133000" />
-      <workItem from="1672384045939" duration="1176000" />
+      <workItem from="1672384045939" duration="1177000" />
+      <workItem from="1672619414431" duration="40000" />
+      <workItem from="1672621231616" duration="607000" />
+      <workItem from="1672623928626" duration="1254000" />
     </task>
     <servers />
   </component>
