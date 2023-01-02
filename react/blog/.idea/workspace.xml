@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6d61e3-8579-402d-93d8-504a703efe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../todo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoListComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoModifyComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoReadComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoRegisterComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/apis/todoAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/pages/AboutPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/pages/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/pages/todo/TodoListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/pages/todo/TodoReadPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/pages/todo/TodoRegisterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/src/routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo/todo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo/src/Components/menu/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/Components/menu/MenuComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/Components/todo/TodoModifyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/Components/todo/TodoModifyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/src/pages/todo/TodoReadPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/src/pages/todo/TodoReadPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
