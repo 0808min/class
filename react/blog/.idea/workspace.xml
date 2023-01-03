@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6d61e3-8579-402d-93d8-504a703efe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/src/main/java/com/app/board/controller/board/BoardWriteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/photo/ba3681ac-9b37-41f8-bae3-fa6f24607712mini.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/photo/mini.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/src/main/java/com/app/board/controller/board/boardWriteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/src/main/java/com/app/board/service/BoardDeleteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/src/main/java/com/app/board/service/BoardEditService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/src/main/java/com/app/board/service/BoardListService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/src/main/java/com/app/board/service/BoardViewService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring/boot/SpringBootBoard/src/main/java/com/app/board/service/BoardWriteService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +85,7 @@
       <workItem from="1672705729449" duration="1048000" />
       <workItem from="1672714802720" duration="306000" />
       <workItem from="1672715117821" duration="390000" />
+      <workItem from="1672715515074" duration="746000" />
     </task>
     <servers />
   </component>
