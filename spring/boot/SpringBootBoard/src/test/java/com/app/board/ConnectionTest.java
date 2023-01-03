@@ -19,8 +19,7 @@ public class ConnectionTest {
 
     @Test
     public void connectionTest() throws SQLException {
-
         @Cleanup Connection conn = dataSource.getConnection();
         log.info(conn);
     }
- }
+}

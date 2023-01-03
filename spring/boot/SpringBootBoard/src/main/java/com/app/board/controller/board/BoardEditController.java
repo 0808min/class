@@ -1,9 +1,8 @@
 package com.app.board.controller.board;
 
 import com.app.board.domain.BoardEditRequest;
-import com.app.board.service.BoardDeleteService;
-import com.app.board.service.BoardEditService;
-import com.app.board.service.BoardViewService;
+import com.app.board.service.board.BoardEditService;
+import com.app.board.service.board.BoardViewService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -26,33 +25,30 @@ public class BoardEditController {
     private BoardEditService boardEditService;
 
     @GetMapping
-    public void editForm(
+    public void edtiForm(
             @RequestParam("bno") int bno,
             @RequestParam("p") int p,
             Model model
-    ) {
-
+    ){
         model.addAttribute("board", boardViewService.selectBoardDTO(bno));
-        model.addAttribute("currPageNum", p);
-
+        model.addAttribute("curPageNum", p);
     }
+
 
     @PostMapping
     public String edit(
             BoardEditRequest boardEditRequest,
             RedirectAttributes redirectAttributes
-    ) {
 
+    ){
         log.info(boardEditRequest);
 
         redirectAttributes.addAttribute("bno", boardEditRequest.getBno());
-        redirectAttributes.addAttribute("p", boardEditRequest.getCurrPageNum());
+        redirectAttributes.addAttribute("p", boardEditRequest.getCurPageNum());
 
         boardEditService.edit(boardEditRequest);
 
         return "redirect:/board/view";
+
     }
-
-
-
 }

@@ -1,5 +1,6 @@
 package com.app.board.domain;
 
+
 import lombok.*;
 
 import java.time.LocalDate;
@@ -8,8 +9,8 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
 @Builder
+@ToString
 public class BoardDTO {
 
     private int bno;
@@ -19,6 +20,7 @@ public class BoardDTO {
     private String photo;
     private LocalDate regdate;
     private LocalDate updatedate;
+
 
 
 }

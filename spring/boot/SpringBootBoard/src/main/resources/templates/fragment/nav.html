@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
+
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -16,33 +17,48 @@
           <a class="nav-link" href="/board/list">Board</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Dept</a>
+          <a class="nav-link" href="#">DEPT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Emp</a>
+          <a class="nav-link" href="#">EMP</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Account
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">로그인</a></li>
-            <li><a class="dropdown-item" href="#">회원가입</a></li>
-            <!--            <li><hr class="dropdown-divider"></li>-->
-            <li><a class="dropdown-item" href="#">로그아웃</a></li>
+
+            <!--<li sec:authroize="isAuthenticated()">
+              <span sec:authentication="principal.boardMember"></span>
+            </li>-->
+            <li sec:authorize="isAuthenticated()">
+              <span sec:authentication="principal.boardMember.username"></span>
+            </li>
+            <li sec:authorize="isAuthenticated()">
+              <span sec:authentication="principal.boardMember.userid"></span>
+            </li>
+            <li sec:authorize="isAuthenticated()"><a class="dropdown-item" href="/auth/logout">로그아웃</a></li>
+
+            <li sec:authorize="!isAuthenticated()"><a class="dropdown-item" href="/auth/login">로그인</a></li>
+
+            <!--<li><a class="dropdown-item" href="#">회원가입</a></li>-->
+            <!--<li><hr class="dropdown-divider"></li>-->
+
           </ul>
         </li>
-        <!--<li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>-->
+        <!--        <li class="nav-item">-->
+        <!--          <a class="nav-link disabled">Disabled</a>-->
+        <!--        </li>-->
       </ul>
-      <!-- <form class="d-flex" role="search">
-         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-         <button class="btn btn-outline-success" type="submit">Search</button>
-       </form>-->
+      <!--<form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>-->
     </div>
   </div>
 </nav>
+
+
 
 
 </html>
