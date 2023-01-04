@@ -39,7 +39,7 @@ public class Item {
     public Item(String itemNm, int price, int stockNumber, String itemDetail, ItemSellStatus itemSellStatus) {
         this.itemNm = itemNm;
         this.price = price;
-        this.stockNumber =stockNumber;
+        this.stockNumber = stockNumber;
         this.itemDetail = itemDetail;
         this.itemSellStatus = itemSellStatus;
     }
