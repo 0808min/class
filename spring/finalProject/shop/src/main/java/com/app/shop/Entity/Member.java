@@ -47,7 +47,7 @@ public class Member {
                 .email(memberDTO.getEmail())
                 .address(memberDTO.getAddress())
                 .password(passwordEncoder.encode(memberDTO.getPassword()))  //암호화처리
-                .role(MemberRole.ROOT)
+                .role(MemberRole.USER)
                 .build();
         return member;
     }
