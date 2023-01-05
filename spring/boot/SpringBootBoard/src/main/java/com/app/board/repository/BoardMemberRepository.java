@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface BoardMemberRespository extends JpaRepository<BoardMember, Integer> {
+public interface BoardMemberRepository extends JpaRepository<BoardMember, Integer> {
 
 
     // 회원 정보 하나 => CustomUserDetailService

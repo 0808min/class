@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 @Transactional
-@TestPropertySource(properties = {"spring.config.location=classpath.application"})
+@TestPropertySource(properties = {"spring.config.location=classpath:application-test.yml"})
 public class MemberServiceTest {
 
     @Autowired

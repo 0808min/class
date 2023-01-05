@@ -1,8 +1,7 @@
 package com.app.board.security;
 
 import com.app.board.entity.BoardMember;
-import com.app.board.repository.BoardMemberRespository;
-import com.app.board.repository.BoardRepository;
+import com.app.board.repository.BoardMemberRepository;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -20,14 +19,14 @@ import java.util.Optional;
 public class CustomUserDetailService implements UserDetailsService {
 
     @Autowired
-    private BoardMemberRespository boardMemberRespository;
+    private BoardMemberRepository boardMemberRepository;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
         log.info(" >>>>> loadUserByUsername => " + username);
 
-        Optional<BoardMember> result = boardMemberRespository.findByUserid(username);
+        Optional<BoardMember> result = boardMemberRepository.findByUserid(username);
 
         if(result.isEmpty()){
             throw new UsernameNotFoundException("회원의 아이디 또는 비밀번호 확인");

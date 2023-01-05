@@ -1,13 +1,11 @@
 package com.app.board;
 
 import com.app.board.entity.BoardMember;
-import com.app.board.repository.BoardMemberRespository;
-import com.app.board.repository.BoardRepository;
+import com.app.board.repository.BoardMemberRepository;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.time.LocalDateTime;
@@ -17,7 +15,7 @@ import java.time.LocalDateTime;
 public class BoardMemberRepositoryTest {
 
     @Autowired
-    private BoardMemberRespository boardMemberRespository;
+    private BoardMemberRepository boardMemberRepository;
 
 
     @Autowired
@@ -36,7 +34,7 @@ public class BoardMemberRepositoryTest {
                 .editdate(LocalDateTime.now())
                 .build();
 
-        BoardMember member = boardMemberRespository.save(boardMember);
+        BoardMember member = boardMemberRepository.save(boardMember);
 
         log.info(member);
 

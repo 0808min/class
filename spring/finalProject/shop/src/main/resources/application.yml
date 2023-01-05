@@ -1,0 +1,24 @@
+
+# Datasource
+server:
+  port: 80
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc.mysql://localhost:8080/project
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      show_sql: true
+      format_sql: true
+database-platform: org.hibernate.dialect.mySQL5Dialect
+
+
+
+
+
+
