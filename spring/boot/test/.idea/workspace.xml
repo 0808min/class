@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f0fcd16-3da6-4895-a447-b90c40e1a3bc" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/SecurityConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f0fcd16-3da6-4895-a447-b90c40e1a3bc" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,7 @@
       <updated>1672901640798</updated>
       <workItem from="1672901641987" duration="977000" />
       <workItem from="1672902648138" duration="385000" />
-      <workItem from="1672903053370" duration="1849000" />
+      <workItem from="1672903053370" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672901822194</created>

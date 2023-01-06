@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server ",
+      "writer": "jin test",
+      "complete": true
+    },
+    {
+      "title": "오늘 처음 해야할일 수정",
+      "writer": "손흥민 수정",
+      "complete": true,
+      "id": 2
+    }
+  ],
+  "member": [
+    {
+      "id": "user00",
+      "pw": "1111"
+    }
+  ]
+}
