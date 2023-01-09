@@ -1,6 +1,6 @@
 package com.app.shop;
 
-import com.app.shop.Entity.Member;
+import com.app.shop.domain.members.Member;
 import com.app.shop.domain.members.MemberDTO;
 import com.app.shop.service.MemberService;
 import org.junit.jupiter.api.DisplayName;

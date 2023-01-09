@@ -1,5 +1,6 @@
-package com.app.shop.Entity;
+package com.app.shop.domain.carts;
 
+import com.app.shop.domain.members.Member;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

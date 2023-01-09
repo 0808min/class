@@ -1,4 +1,4 @@
-package com.app.shop.Entity;
+package com.app.shop.domain.items;
 
 import com.app.shop.domain.items.ItemSellStatus;
 import lombok.Builder;

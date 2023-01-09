@@ -1,6 +1,6 @@
 package com.app.shop;
 
-import com.app.shop.Entity.Item;
+import com.app.shop.domain.items.Item;
 import com.app.shop.domain.items.ItemSellStatus;
 import com.app.shop.repository.ItemRepository;
 import org.junit.jupiter.api.DisplayName;

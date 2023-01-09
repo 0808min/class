@@ -1,6 +1,6 @@
 package com.app.shop.service;
 
-import com.app.shop.Entity.Member;
+import com.app.shop.domain.members.Member;
 import com.app.shop.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.User;
@@ -20,6 +20,8 @@ public class MemberService implements UserDetailsService {
 
     public Member saveMember(Member member) {
         validateDuplicateMember(member);
+
+
 
         return memberRepository.save(member);
     }
