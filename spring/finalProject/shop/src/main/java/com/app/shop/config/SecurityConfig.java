@@ -34,6 +34,12 @@ public class SecurityConfig{
                 .logoutRequestMatcher(new AntPathRequestMatcher("/members/logout"))
                 .logoutSuccessUrl("/");
 
+        http
+                .authorizeHttpRequests()
+                .mvcMatchers("/", "members/**", "/item/**", "/assets/**", "/h2-console/**").permitAll()
+                .mvcMatchers("/admin/**").hasRole("ADMIN")
+                .anyRequest().authenticated();
+
         return http.build();
     }
 
@@ -47,6 +53,7 @@ public class SecurityConfig{
     public WebSecurityCustomizer webSecurityCustomizer() {
         return (web -> web.ignoring().requestMatchers(PathRequest.toStaticResources().atCommonLocations()));
     }
+
 
 
 
