@@ -5,26 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f0fcd16-3da6-4895-a447-b90c40e1a3bc" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/../../finalProject/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/Auditing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/CustomAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/BaseTimeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/carts/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/orders/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/orders/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/Entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/carts/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/Entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/items/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/Entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/members/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/items/ItemImgDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/item/ItemImg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/MemberRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/members/MemberRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/BaseTimeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/BaseTimeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/carts/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/carts/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/cart/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/members/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/orders/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/domain/orders/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/entity/order/OrderItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/repository/CartRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/repository/ItemRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/repository/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/resources/templates/ex/thymeleaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/resources/templates/thymeleaf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/test/java/com/app/shop/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/test/java/com/app/shop/CartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/test/java/com/app/shop/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/test/java/com/app/shop/ItemRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/test/java/com/app/shop/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/test/java/com/app/shop/MemberServiceTest.java" afterDir="false" />
