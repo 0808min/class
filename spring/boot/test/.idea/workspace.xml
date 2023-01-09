@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f0fcd16-3da6-4895-a447-b90c40e1a3bc" name="Changes" comment="test" />
+    <list default="true" id="8f0fcd16-3da6-4895-a447-b90c40e1a3bc" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/../../finalProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/Entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/resources/templates/item/itemForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/resources/templates/members/loginForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../finalProject/shop/src/test/java/com/app/shop/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../finalProject/shop/src/main/java/com/app/shop/controller/MemberController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/boot/SpringBootBoard",
+    "last_opened_file_path": "C:/Users/cheoho-hi/Documents/GitHub/class/spring/finalProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +95,7 @@
       <workItem from="1672901641987" duration="977000" />
       <workItem from="1672902648138" duration="385000" />
       <workItem from="1672903053370" duration="1851000" />
+      <workItem from="1673239425958" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672901822194</created>
