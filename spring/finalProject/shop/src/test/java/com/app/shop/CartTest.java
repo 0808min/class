@@ -1,8 +1,8 @@
 package com.app.shop;
 
 
-import com.app.shop.domain.carts.Cart;
-import com.app.shop.domain.members.Member;
+import com.app.shop.entity.cart.Cart;
+import com.app.shop.entity.member.Member;
 import com.app.shop.domain.members.MemberDTO;
 import com.app.shop.repository.CartRepository;
 import com.app.shop.repository.MemberRepository;

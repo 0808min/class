@@ -1,7 +1,8 @@
-package com.app.shop.domain.orders;
+package com.app.shop.entity.order;
 
 
-import com.app.shop.domain.items.Item;
+import com.app.shop.entity.item.Item;
+import com.app.shop.entity.order.Order;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

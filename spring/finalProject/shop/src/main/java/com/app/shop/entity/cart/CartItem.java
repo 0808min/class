@@ -1,6 +1,7 @@
-package com.app.shop.domain.carts;
+package com.app.shop.entity.cart;
 
-import com.app.shop.domain.items.Item;
+import com.app.shop.entity.cart.Cart;
+import com.app.shop.entity.item.Item;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

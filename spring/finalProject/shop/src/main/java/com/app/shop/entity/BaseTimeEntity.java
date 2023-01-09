@@ -1,4 +1,4 @@
-package com.app.shop.domain;
+package com.app.shop.entity;
 
 
 import lombok.Getter;
