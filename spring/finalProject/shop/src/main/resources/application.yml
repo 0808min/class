@@ -1,5 +1,4 @@
 
-# Datasource
 
 spring:
   datasource:
@@ -7,12 +6,19 @@ spring:
     url: jdbc:mysql://localhost:3306/project
     username: root
     password: admin
+
   jpa:
     hibernate:
       ddl-auto: create
     properties:
       show_sql: true
       format_sql: true
+
+  servlet:
+  multipart:
+    maxFileSize: 20MB
+    maxRequestSize: 100MB
+
 server:
   port: 8080
 

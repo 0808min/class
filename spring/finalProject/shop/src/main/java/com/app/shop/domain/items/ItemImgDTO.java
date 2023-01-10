@@ -1,6 +1,7 @@
 package com.app.shop.domain.items;
 
 import com.app.shop.entity.item.ItemImg;
+import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
@@ -14,6 +15,7 @@ public class ItemImgDTO {
     private String imgUrl;
     private String repImgYn;
 
+    @Builder
     public ItemImgDTO(String imgName, String  oriImgName, String imgUrl, String repImgYn) {
         this.imgName = imgName;
         this.oriImgName = oriImgName;
@@ -31,6 +33,5 @@ public class ItemImgDTO {
 
         return entity;
     }
-    
 
 }
