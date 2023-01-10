@@ -20,7 +20,7 @@ public class Item {
     private Long id; //상품 코드
 
     @Column(nullable = false, length = 50)
-    private String itemNm; //상품명
+    private String itemName; //상품명
 
     @Column(name = "price", nullable = false)
     private int price;  //가격
@@ -36,8 +36,8 @@ public class Item {
     private ItemSellStatus itemSellStatus;  //상품 판매 상태
 
     @Builder
-    public Item(String itemNm, int price, int stockNumber, String itemDetail, ItemSellStatus itemSellStatus) {
-        this.itemNm = itemNm;
+    public Item(String itemName, int price, int stockNumber, String itemDetail, ItemSellStatus itemSellStatus) {
+        this.itemName = itemName;
         this.price = price;
         this.stockNumber = stockNumber;
         this.itemDetail = itemDetail;
