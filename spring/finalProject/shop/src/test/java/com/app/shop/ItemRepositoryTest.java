@@ -20,7 +20,7 @@ public class ItemRepositoryTest {
     @DisplayName("상품 저장 테스트")
     public void createItemTest() {
         Item item = Item.builder()
-                .itemNm("테스트 상품")
+                .itemName("테스트 상품")
                 .price(10000)
                 .itemDetail("테스트 상품 상세설명")
                 .itemSellStatus(ItemSellStatus.SELL)
