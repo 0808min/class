@@ -1,5 +1,6 @@
 package com.app.shop.domain.items;
 
+import com.app.shop.entity.item.Item;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,7 +20,7 @@ public class ItemFormDTO {
     private String itemName;
 
     @NotNull(message = "가격은 필수 입력 값입니다.")
-    private String price;
+    private Integer price;
 
     @NotBlank(message = "상세 내용은 필수 입력 값입니다.")
     private String itemDetail;
@@ -34,12 +35,37 @@ public class ItemFormDTO {
     private List<Long> itemImgIds = new ArrayList<>();
 
     @Builder
-    public ItemFormDTO(String itemName, String price, String itemDetail, Integer stockNumber,ItemSellStatus itemSellStatus) {
+    public ItemFormDTO(String itemName, Integer price, String itemDetail, Integer stockNumber,ItemSellStatus itemSellStatus) {
         this.itemName = itemName;
         this.price = price;
         this.itemDetail = itemDetail;
         this.stockNumber = stockNumber;
         this.itemSellStatus = itemSellStatus;
+    }
+
+    public Item toEntity(ItemFormDTO dto) {
+        Item entity = Item.builder()
+                .itemName(dto.itemName)
+                .itemDetail(dto.itemDetail)
+                .stockNumber(dto.stockNumber)
+                .itemSellStatus(dto.itemSellStatus)
+                .price(dto.price)
+                .build();
+
+        return entity;
+    }
+
+    public static ItemFormDTO of(Item entity) {
+        ItemFormDTO dto = ItemFormDTO.builder()
+                .itemName(entity.getItemName())
+                .itemDetail(entity.getItemDetail())
+                .itemSellStatus(entity.getItemSellStatus())
+                .price(entity.getPrice())
+                .stockNumber(entity.getStockNumber())
+                .build();
+
+        return dto;
+
     }
 
 }
