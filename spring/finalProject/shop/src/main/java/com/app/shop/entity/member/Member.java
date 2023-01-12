@@ -1,6 +1,6 @@
 package com.app.shop.entity.member;
 
-import com.app.shop.domain.members.MemberDTO;
+import com.app.shop.domain.members.MemberFormDTO;
 import com.app.shop.domain.members.MemberRole;
 import lombok.Builder;
 import lombok.Getter;
@@ -42,12 +42,12 @@ public class Member {
         this.role = role;
     }
 
-    public static Member createMember(MemberDTO memberDTO, PasswordEncoder passwordEncoder) {
+    public static Member createMember(MemberFormDTO memberFormDTO, PasswordEncoder passwordEncoder) {
         Member member = Member.builder()
-                .name(memberDTO.getName())
-                .email(memberDTO.getEmail())
-                .address(memberDTO.getAddress())
-                .password(passwordEncoder.encode(memberDTO.getPassword()))  //암호화처리
+                .name(memberFormDTO.getName())
+                .email(memberFormDTO.getEmail())
+                .address(memberFormDTO.getAddress())
+                .password(passwordEncoder.encode(memberFormDTO.getPassword()))  //암호화처리
                 .role(MemberRole.USER)
                 .build();
         return member;

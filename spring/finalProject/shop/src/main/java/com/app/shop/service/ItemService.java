@@ -20,7 +20,6 @@ import java.util.List;
 @Transactional
 public class ItemService {
 
-
     private final ItemRepository itemRepository;
     private final ItemImgService itemImgService;
     private final ItemImgRepository itemImgRepository;
@@ -43,7 +42,6 @@ public class ItemService {
 
         return item.getId();
 
-
     }
 
     @Transactional(readOnly = true)
@@ -59,7 +57,5 @@ public class ItemService {
         return itemFormDTO;
 
     }
-
-
 
 }

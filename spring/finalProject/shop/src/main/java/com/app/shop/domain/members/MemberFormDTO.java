@@ -9,7 +9,7 @@ import javax.validation.constraints.NotEmpty;
 
 @NoArgsConstructor
 @Getter
-public class MemberDTO {
+public class MemberFormDTO {
 
     @NotBlank(message = "이름은 필수 입력 값입니다.")
     private String name;
@@ -26,7 +26,7 @@ public class MemberDTO {
     private String address;
 
     @Builder
-    public MemberDTO(String name, String email, String password, String address) {
+    public MemberFormDTO(String name, String email, String password, String address) {
         this.name = name;
         this.email = email;
         this.password = password;

@@ -1,7 +1,7 @@
 package com.app.shop;
 
+import com.app.shop.domain.members.MemberFormDTO;
 import com.app.shop.entity.member.Member;
-import com.app.shop.domain.members.MemberDTO;
 import com.app.shop.service.MemberService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -26,14 +26,14 @@ public class MemberServiceTest {
 
 
     public Member createMember() {
-        MemberDTO memberDTO = MemberDTO
+        MemberFormDTO memberFormDTO = MemberFormDTO
                 .builder()
                 .email("test@gmail.com")
                 .name("테스트")
                 .address("강동구")
                 .password("1234")
                 .build();
-        return Member.createMember(memberDTO,passwordEncoder);
+        return Member.createMember(memberFormDTO,passwordEncoder);
     }
 
     @Test

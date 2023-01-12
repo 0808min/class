@@ -1,7 +1,7 @@
 package com.app.shop.controller;
 
 import com.app.shop.entity.member.Member;
-import com.app.shop.domain.members.MemberDTO;
+import com.app.shop.domain.members.MemberFormDTO;
 import com.app.shop.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -24,18 +24,18 @@ public class MemberController {
 
     @GetMapping(value = "/new")
     public String memberForm(Model model) {
-        model.addAttribute("memberDTO", new MemberDTO());
+        model.addAttribute("memberFormDTO", new MemberFormDTO());
         return "members/memberForm";
     }
 
     @PostMapping(value = "new")
-    public String memberForm(@Valid MemberDTO memberDTO, BindingResult bindingResult, Model model) {
+    public String memberForm(@Valid MemberFormDTO memberFormDTO, BindingResult bindingResult, Model model) {
         if (bindingResult.hasErrors()) {
             return "members/memberForm";
         }
 
         try {
-            Member member = Member.createMember(memberDTO, passwordEncoder);
+            Member member = Member.createMember(memberFormDTO, passwordEncoder);
             memberService.saveMember(member);
         } catch (IllegalStateException e) {
             model.addAttribute("errorMessage", e.getMessage());

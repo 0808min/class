@@ -1,9 +1,9 @@
 package com.app.shop;
 
 
+import com.app.shop.domain.members.MemberFormDTO;
 import com.app.shop.entity.cart.Cart;
 import com.app.shop.entity.member.Member;
-import com.app.shop.domain.members.MemberDTO;
 import com.app.shop.repository.CartRepository;
 import com.app.shop.repository.MemberRepository;
 import org.junit.jupiter.api.DisplayName;
@@ -38,7 +38,7 @@ public class CartTest {
     EntityManager em;
 
     public Member createMember() {
-        MemberDTO memberDTO = MemberDTO.builder()
+        MemberFormDTO memberFormDTO = MemberFormDTO.builder()
                 .email("test@gmail.com")
                 .name("테스트")
                 .address("서울시 강동구")
@@ -46,7 +46,7 @@ public class CartTest {
                 .build();
 
 
-        return Member.createMember(memberDTO, passwordEncoder);
+        return Member.createMember(memberFormDTO, passwordEncoder);
     }
 
     @Test
