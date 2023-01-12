@@ -1,6 +1,8 @@
 package com.app.shop.entity.item;
 
+import com.app.shop.domain.items.ItemFormDTO;
 import com.app.shop.domain.items.ItemSellStatus;
+import com.app.shop.entity.BaseEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +14,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Item {
+public class Item extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -43,4 +45,14 @@ public class Item {
         this.itemDetail = itemDetail;
         this.itemSellStatus = itemSellStatus;
     }
+
+    public void updateItem(ItemFormDTO itemFormDTO) {
+        this.itemName = itemFormDTO.getItemName();
+        this.price = itemFormDTO.getPrice();
+        this.stockNumber = itemFormDTO.getStockNumber();
+        this.itemDetail = itemFormDTO.getItemDetail();
+        this.itemSellStatus = itemFormDTO.getItemSellStatus();
+    }
+
+
 }

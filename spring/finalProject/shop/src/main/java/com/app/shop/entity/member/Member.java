@@ -1,6 +1,7 @@
 package com.app.shop.entity.member;
 
 import com.app.shop.domain.members.MemberFormDTO;
+import com.app.shop.entity.BaseEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ import javax.persistence.*;
 @Getter
 @Table(name = "member")
 @Entity
-public class Member {
+public class Member extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
