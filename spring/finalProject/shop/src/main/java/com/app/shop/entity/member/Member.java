@@ -1,7 +1,6 @@
 package com.app.shop.entity.member;
 
 import com.app.shop.domain.members.MemberFormDTO;
-import com.app.shop.domain.members.MemberRole;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

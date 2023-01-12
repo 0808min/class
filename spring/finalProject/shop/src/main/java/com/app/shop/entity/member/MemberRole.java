@@ -1,4 +1,4 @@
-package com.app.shop.domain.members;
+package com.app.shop.entity.member;
 
     public enum MemberRole {
         USER, ADMIN
