@@ -1,6 +1,7 @@
 package com.app.shop.domain.items;
 
 import com.app.shop.entity.item.Item;
+import com.app.shop.entity.item.ItemSellStatus;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;

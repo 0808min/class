@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -67,6 +68,31 @@ public class ItemController {
         }
 
         return "item/itemForm";
+    }
+
+    @PostMapping(value = "/admin/item/{itemId}")
+    public String itemUpdate(@Valid ItemFormDTO itemFormDTO, BindingResult bindingResult,
+                             @RequestParam("itemImgFile") List<MultipartFile> itemImgFileList, Model model) {
+
+        if (bindingResult.hasErrors()) {
+            return "item/itemForm";
+        }
+
+        if(itemImgFileList.get(0).isEmpty() && itemFormDTO.getId() == null) {
+            model.addAttribute("errorMassage", "첫번째 상품 이미지는 필수 입렵 값입니다." );
+            return "item/itemForm";
+        }
+
+        try {
+            itemService.saveItem(itemFormDTO, itemImgFileList);
+        } catch (Exception e) {
+            model.addAttribute("errorMassage", "상품 수정 중 에러가 발생 하였습니다.");
+            return "item/itemForm";
+        }
+
+
+        return "redirect:/";
+
 
 
     }

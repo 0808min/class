@@ -1,7 +1,7 @@
 package com.app.shop;
 
 import com.app.shop.entity.item.Item;
-import com.app.shop.domain.items.ItemSellStatus;
+import com.app.shop.entity.item.ItemSellStatus;
 import com.app.shop.repository.ItemRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

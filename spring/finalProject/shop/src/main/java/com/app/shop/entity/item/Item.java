@@ -1,7 +1,6 @@
 package com.app.shop.entity.item;
 
 import com.app.shop.domain.items.ItemFormDTO;
-import com.app.shop.domain.items.ItemSellStatus;
 import com.app.shop.entity.BaseEntity;
 import lombok.Builder;
 import lombok.Getter;
