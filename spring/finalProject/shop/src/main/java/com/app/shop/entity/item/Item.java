@@ -2,6 +2,7 @@ package com.app.shop.entity.item;
 
 import com.app.shop.domain.items.ItemFormDTO;
 import com.app.shop.entity.BaseEntity;
+import com.app.shop.entity.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
