@@ -1,5 +1,6 @@
 package com.app.shop.entity.order;
 
+import antlr.collections.impl.BitSet;
 import com.app.shop.entity.member.Member;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -31,7 +32,6 @@ public class Order {
     private Member member;
 
     private LocalDateTime orderDate; // 주문일
-
 
 
 }
