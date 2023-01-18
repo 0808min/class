@@ -3,6 +3,7 @@ package com.app.shop.entity.item;
 import com.app.shop.domain.items.ItemFormDTO;
 import com.app.shop.entity.BaseEntity;
 import com.app.shop.entity.BaseTimeEntity;
+import com.app.shop.excption.OutOfStockException;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -52,6 +53,15 @@ public class Item extends BaseEntity {
         this.stockNumber = itemFormDTO.getStockNumber();
         this.itemDetail = itemFormDTO.getItemDetail();
         this.itemSellStatus = itemFormDTO.getItemSellStatus();
+    }
+
+    public void removeStock(int stockNumber) {
+        int restStock = this.stockNumber - stockNumber;
+        if(restStock < 0) {
+            throw new OutOfStockException("상품의 재고가 부족합니다.(현재 재고 수량 : " + this.stockNumber + ")");
+        }
+
+        this.stockNumber = restStock;
     }
 
 

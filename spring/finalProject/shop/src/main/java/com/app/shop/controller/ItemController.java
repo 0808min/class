@@ -1,7 +1,13 @@
 package com.app.shop.controller;
 
 import com.app.shop.domain.items.ItemFormDTO;
+import com.app.shop.domain.items.ItemSearchDTO;
+import com.app.shop.domain.items.MainItemDTO;
+import com.app.shop.entity.item.Item;
 import com.app.shop.service.ItemService;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -14,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.persistence.EntityNotFoundException;
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class ItemController {
@@ -67,7 +74,10 @@ public class ItemController {
             return "item/itemForm";
         }
 
-        return "item/itemForm";
+        ItemFormDTO itemFormDTO = itemService.getItemDetail(itemId);
+        model.addAttribute("item", itemFormDTO);
+
+        return "item/itemDtl";
     }
 
     @PostMapping(value = "/admin/item/{itemId}")
@@ -90,12 +100,34 @@ public class ItemController {
             return "item/itemForm";
         }
 
-
         return "redirect:/";
 
-
-
     }
+
+    @GetMapping({"/admin/items", "/admin/items/{page}"})
+    public String itemManage(ItemSearchDTO itemSearchDTO,
+                             @PathVariable("page") Optional<Integer> page, Model model) {
+        Pageable pageable = PageRequest.of(page.isPresent() ? page.get() : 0, 3);
+        Page<Item> items = itemService.getAdminItemPage(itemSearchDTO, pageable);
+        model.addAttribute("items", items);
+        model.addAttribute("itemSearchDTO", itemSearchDTO);
+        model.addAttribute("maxPage", 5);
+
+        return "item/itemMng";
+    }
+
+    @GetMapping(value = "/")
+    public String main(ItemSearchDTO itemSearchDTO, @PathVariable("page") Optional<Integer> page, Model model) {
+        Pageable pageable = PageRequest.of(page.isPresent() ? page.get() : 0, 8);
+        Page<MainItemDTO> items = itemService.getMainItemPage(itemSearchDTO, pageable);
+        model.addAttribute("items", items);
+        model.addAttribute("itemSearchDTO", itemSearchDTO);
+        model.addAttribute("maxPage", 5);
+
+        return "main";
+    }
+
+
 
 
 }

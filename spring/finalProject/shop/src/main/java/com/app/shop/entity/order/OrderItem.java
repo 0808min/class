@@ -1,6 +1,7 @@
 package com.app.shop.entity.order;
 
 
+import com.app.shop.entity.BaseEntity;
 import com.app.shop.entity.item.Item;
 import lombok.Builder;
 import lombok.Getter;
@@ -14,7 +15,7 @@ import javax.persistence.*;
 @ToString
 @Table(name = "order_item_id")
 @Entity
-public class OrderItem {
+public class OrderItem extends BaseEntity {
 
     @Id
     @GeneratedValue
@@ -40,6 +41,25 @@ public class OrderItem {
         this.orderPrice = orderPrice;
         this.count = count;
 
+    }
+
+    public static OrderItem createOrderItem(Item item, int count) {
+        OrderItem orderItem = OrderItem.builder()
+                .item(item)
+                .count(count)
+                .orderPrice(item.getPrice())
+                .build();
+        item.removeStock(count);
+
+        return orderItem;
+    }
+
+    public int getTotalPrice() {
+        return orderPrice = count;
+    }
+
+    public void cancel() {
+        this.getItem().addStock(count)
     }
 
 

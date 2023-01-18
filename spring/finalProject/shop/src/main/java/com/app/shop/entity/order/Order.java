@@ -1,10 +1,12 @@
 package com.app.shop.entity.order;
 
-import antlr.collections.impl.BitSet;
+import com.app.shop.entity.BaseEntity;
 import com.app.shop.entity.member.Member;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.aspectj.weaver.ast.Or;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -16,7 +18,8 @@ import java.util.List;
 @ToString
 @Table(name = "orders")
 @Entity
-public class Order {
+
+public class Order extends BaseEntity {
 
 
     @Id
@@ -33,5 +36,44 @@ public class Order {
 
     private LocalDateTime orderDate; // 주문일
 
+
+    @Enumerated(EnumType.STRING)
+    private OrderStatus orderStatus;
+
+    public void setOrderStatus(OrderStatus orderStatus) {
+        this.orderStatus = orderStatus;
+    }
+
+    public void addOrderItem(OrderItem orderItem) {
+        orderItems.add(orderItem);
+        orderItem = OrderItem.builder()
+                .order(this)
+                .build();
+    }
+
+    public static Order createOrder(Member member, List<OrderItem> orderItemList) {
+        Order order = Order.builder()
+                .member(member)
+                .orderStatus(OrderStatus.ORDER)
+                .orderDate(LocalDateTime.now())
+                .build();
+        for (OrderItem orderItem : orderItemList) {
+            order.addOrderItem(orderItem);
+        }
+        return order;
+    }
+
+    public int getTotalPrice() {
+        int totalPrice = 0;
+        for (OrderItem orderItem : orderItems) {
+            totalPrice += orderItem.getTotalPrice();
+        }
+
+        return totalPrice;
+    }
+
+    public void addStock(int stockNumber) {
+        this.stockNumber += stockNumber;
+    }
 
 }
