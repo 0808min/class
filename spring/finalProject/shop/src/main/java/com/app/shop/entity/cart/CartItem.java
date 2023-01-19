@@ -1,5 +1,6 @@
 package com.app.shop.entity.cart;
 
+import com.app.shop.entity.BaseEntity;
 import com.app.shop.entity.cart.Cart;
 import com.app.shop.entity.item.Item;
 import lombok.Builder;
@@ -12,7 +13,7 @@ import javax.persistence.*;
 @Getter
 @Table(name = "cart_item")
 @Entity
-public class CartItem {
+public class CartItem extends BaseEntity {
 
     @Id
     @GeneratedValue
@@ -36,6 +37,20 @@ public class CartItem {
         this.item = item;
         this.count = count;
 
+    }
+
+    public static CartItem createCartItem(Cart cart, Item item, int count) {
+        CartItem cartItem = CartItem.builder()
+                .cart(cart)
+                .item(item)
+                .count(count)
+                .build();
+
+        return cartItem;
+    }
+
+    public void addCount(int count) {
+        this.count += count;
     }
 
 }

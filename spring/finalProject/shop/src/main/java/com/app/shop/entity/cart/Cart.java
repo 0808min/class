@@ -1,5 +1,6 @@
 package com.app.shop.entity.cart;
 
+import com.app.shop.entity.BaseEntity;
 import com.app.shop.entity.member.Member;
 import lombok.Builder;
 import lombok.Getter;
@@ -11,7 +12,7 @@ import javax.persistence.*;
 @Getter
 @Table(name = "cart")
 @Entity
-public class Cart {
+public class Cart extends BaseEntity {
 
     @Id
     @Column(name = "member_id")
@@ -25,6 +26,14 @@ public class Cart {
     @Builder
     public Cart(Member member) {
         this.member = member;
+    }
+
+    public static Cart createCart(Member member) {
+        Cart cart = Cart.builder()
+                .member(member)
+                .build();
+
+        return cart;
     }
 
 
