@@ -1,6 +1,7 @@
 package com.app.shop;
 
 
+
 import com.app.shop.domain.carts.CartItemDTO;
 import com.app.shop.entity.cart.CartItem;
 import com.app.shop.entity.item.Item;
@@ -21,28 +22,32 @@ import javax.persistence.EntityNotFoundException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@SpringBootTest
 @Transactional
+@SpringBootTest
 @TestPropertySource(properties = {"spring.config.location=classpath:application-test.yml"})
 public class CartServiceTest {
 
     @Autowired
     ItemRepository itemRepository;
+
     @Autowired
     MemberRepository memberRepository;
+
     @Autowired
     CartService cartService;
+
     @Autowired
     CartItemRepository cartItemRepository;
 
     public Item saveItem() {
         Item item = Item.builder()
-                .itemName("테스트상품")
+                .itemName("테스트 상품")
                 .price(10000)
                 .itemDetail("테스트 상품 설명")
                 .itemSellStatus(ItemSellStatus.SELL)
                 .stockNumber(100)
                 .build();
+
         return itemRepository.save(item);
     }
 
@@ -69,8 +74,9 @@ public class CartServiceTest {
         CartItem cartItem = cartItemRepository.findById(cartItemId)
                 .orElseThrow(EntityNotFoundException::new);
 
-
         assertEquals(item.getId(), cartItem.getItem().getId());
         assertEquals(cartItemDTO.getCount(), cartItem.getCount());
+
     }
+
 }
